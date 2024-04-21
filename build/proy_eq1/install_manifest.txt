@@ -1,0 +1,15 @@
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/ament_index/resource_index/package_run_dependencies/proy_eq1
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/ament_index/resource_index/parent_prefix_path/proy_eq1
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/environment/ament_prefix_path.sh
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/environment/ament_prefix_path.dsv
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/environment/path.sh
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/environment/path.dsv
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/local_setup.bash
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/local_setup.sh
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/local_setup.zsh
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/local_setup.dsv
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/package.dsv
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/ament_index/resource_index/packages/proy_eq1
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/cmake/proy_eq1Config.cmake
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/cmake/proy_eq1Config-version.cmake
+/home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1/package.xml

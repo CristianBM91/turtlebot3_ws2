@@ -1,0 +1,11 @@
+source;share/proy_eq1/hook/cmake_prefix_path.ps1
+source;share/proy_eq1/hook/cmake_prefix_path.dsv
+source;share/proy_eq1/hook/cmake_prefix_path.sh
+source;share/proy_eq1/hook/pythonpath.ps1
+source;share/proy_eq1/hook/pythonpath.dsv
+source;share/proy_eq1/hook/pythonpath.sh
+source;share/proy_eq1/local_setup.bash
+source;share/proy_eq1/local_setup.dsv
+source;share/proy_eq1/local_setup.ps1
+source;share/proy_eq1/local_setup.sh
+source;share/proy_eq1/local_setup.zsh

@@ -1,0 +1,50 @@
+[0.122s] Invoking command in '/home/vboxuser/turtlebot3_ws/build/proy_eq1': AMENT_PREFIX_PATH=/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service:/opt/ros/galactic PYTHONPATH=/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/proy_eq1/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/proy_eq1
+[0.130s] CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+[0.130s]   cmake_minimum_required called with unknown argument "VERSION3.5".
+[0.130s] 
+[0.130s] 
+[0.136s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.198s] CMake Error at CMakeLists.txt:6 (add_subdirectory):
+[0.198s]   add_subdirectory not given a binary directory but the given source
+[0.199s]   directory
+[0.199s]   "/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_custom_interface" is
+[0.199s]   not a subdirectory of "/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1".
+[0.199s]   When specifying an out-of-tree source a binary directory must be explicitly
+[0.199s]   specified.
+[0.199s] 
+[0.199s] 
+[0.199s] CMake Error at CMakeLists.txt:7 (add_subdirectory):
+[0.199s]   add_subdirectory not given a binary directory but the given source
+[0.199s]   directory "/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_nav_manual"
+[0.199s]   is not a subdirectory of
+[0.199s]   "/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1".  When specifying an
+[0.199s]   out-of-tree source a binary directory must be explicitly specified.
+[0.199s] 
+[0.199s] 
+[0.238s] CMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.238s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.238s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.238s]   set the policy and suppress this warning.
+[0.238s] 
+[0.238s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.238s]   Since the policy is not set the OLD behavior will be used.
+[0.238s] Call Stack (most recent call first):
+[0.238s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.238s]   CMakeLists.txt:10 (ament_package)
+[0.238s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.238s] 
+[0.239s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):
+[0.239s]   if given arguments:
+[0.239s] 
+[0.239s]     "ament_cmake_core" "IN_LIST" "_ARG_EXCLUDE"
+[0.239s] 
+[0.239s]   Unknown arguments specified
+[0.239s] Call Stack (most recent call first):
+[0.239s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)
+[0.239s]   CMakeLists.txt:10 (ament_package)
+[0.239s] 
+[0.239s] 
+[0.239s] -- Configuring incomplete, errors occurred!
+[0.239s] See also "/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/CMakeOutput.log".
+[0.241s] Invoked command in '/home/vboxuser/turtlebot3_ws/build/proy_eq1' returned '1': AMENT_PREFIX_PATH=/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service:/opt/ros/galactic PYTHONPATH=/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/proy_eq1/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/proy_eq1

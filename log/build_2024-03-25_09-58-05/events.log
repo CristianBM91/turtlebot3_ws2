@@ -1,0 +1,317 @@
+[0.000000] (-) TimerEvent: {}
+[0.000172] (-) JobUnselected: {'identifier': 'custom_interface'}
+[0.000226] (-) JobUnselected: {'identifier': 'my_first_action'}
+[0.000245] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.000258] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.000270] (-) JobUnselected: {'identifier': 'my_first_service'}
+[0.000282] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.000293] (-) JobUnselected: {'identifier': 'show_msg'}
+[0.000305] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000316] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000327] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000342] (my_world) JobQueued: {'identifier': 'my_world', 'dependencies': OrderedDict()}
+[0.000360] (my_world) JobStarted: {'identifier': 'my_world'}
+[0.103256] (-) TimerEvent: {}
+[0.166247] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'cmake'}
+[0.167136] (my_world) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/turtlebot3_ws/src/my_world', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/my_world'], 'cwd': '/home/vboxuser/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1679'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1460'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/vboxuser/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c27bbed20fa2ffc704fc9443660136cd'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:35547'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vboxuser/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/linux:@/tmp/.ICE-unix/1718,unix/linux:/tmp/.ICE-unix/1718'), ('INVOCATION_ID', 'd14d9f4c0a8040309c30cbb378623093'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e00f92f9_6fa1_403d_8f7e_322a85c0abae'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c27bbed20fa2ffc704fc9443660136cd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic')]), 'shell': False}
+[0.203563] (-) TimerEvent: {}
+[0.284273] (my_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.304167] (-) TimerEvent: {}
+[0.397203] (my_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.404325] (-) TimerEvent: {}
+[0.405610] (my_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.504782] (-) TimerEvent: {}
+[0.542073] (my_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.542371] (my_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.605237] (-) TimerEvent: {}
+[0.631610] (my_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.643080] (my_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.643680] (my_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.646417] (my_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.705597] (-) TimerEvent: {}
+[0.806594] (-) TimerEvent: {}
+[0.812555] (my_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.812751] (my_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.906990] (-) TimerEvent: {}
+[0.958083] (my_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.983147] (my_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.983477] (my_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.986642] (my_world) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.007743] (-) TimerEvent: {}
+[1.032808] (my_world) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.033303] (my_world) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.108323] (-) TimerEvent: {}
+[1.166141] (my_world) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.172764] (my_world) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.194528] (my_world) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.208384] (-) TimerEvent: {}
+[1.309014] (-) TimerEvent: {}
+[1.399690] (my_world) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.409846] (-) TimerEvent: {}
+[1.489002] (my_world) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.510170] (-) TimerEvent: {}
+[1.580244] (my_world) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[1.610658] (-) TimerEvent: {}
+[1.615308] (my_world) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.711038] (-) TimerEvent: {}
+[1.812098] (-) TimerEvent: {}
+[1.912757] (-) TimerEvent: {}
+[2.013498] (-) TimerEvent: {}
+[2.114623] (-) TimerEvent: {}
+[2.164216] (my_world) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.193011] (my_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.199384] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.206403] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.208988] (my_world) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.209645] (my_world) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.215015] (-) TimerEvent: {}
+[2.216353] (my_world) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.240221] (my_world) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.297664] (my_world) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.307133] (my_world) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.315351] (-) TimerEvent: {}
+[2.321733] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.331373] (my_world) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.332340] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.338801] (my_world) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.339916] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.349816] (my_world) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.350797] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.357287] (my_world) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.357849] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.364256] (my_world) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.365058] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.375208] (my_world) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.415946] (-) TimerEvent: {}
+[2.503926] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.507078] (my_world) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[2.507814] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.516158] (-) TimerEvent: {}
+[2.528920] (my_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.546334] (my_world) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.556564] (my_world) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.595655] (my_world) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[2.616767] (-) TimerEvent: {}
+[2.661799] (my_world) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.671542] (my_world) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.701422] (my_world) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[2.717076] (-) TimerEvent: {}
+[2.777613] (my_world) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.780846] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.781525] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.818016] (-) TimerEvent: {}
+[2.821814] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.833143] (my_world) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.869149] (my_world) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[2.918185] (-) TimerEvent: {}
+[2.941722] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[2.946413] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[2.946712] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.949229] (my_world) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.951255] (my_world) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.954370] (my_world) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.968071] (my_world) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.970489] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[2.971392] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.971594] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.974714] (my_world) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[2.975126] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.018534] (-) TimerEvent: {}
+[3.095721] (my_world) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[3.108652] (my_world) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.119041] (-) TimerEvent: {}
+[3.138194] (my_world) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.207332] (my_world) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.219157] (-) TimerEvent: {}
+[3.222306] (my_world) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.260874] (my_world) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.319280] (-) TimerEvent: {}
+[3.325258] (my_world) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.325783] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.326326] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.326926] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.335006] (my_world) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)\n'}
+[3.339581] (my_world) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[3.387252] (my_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.400360] (my_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[3.419960] (-) TimerEvent: {}
+[3.521076] (-) TimerEvent: {}
+[3.521939] (my_world) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.556872] (my_world) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[3.621301] (-) TimerEvent: {}
+[3.656404] (my_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.722150] (-) TimerEvent: {}
+[3.731293] (my_world) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[3.790992] (my_world) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[3.823111] (-) TimerEvent: {}
+[3.856387] (my_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.861148] (my_world) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.882108] (my_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.884060] (my_world) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.923853] (-) TimerEvent: {}
+[4.024974] (-) TimerEvent: {}
+[4.031472] (my_world) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[4.097803] (my_world) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[4.108353] (my_world) StdoutLine: {'line': b'-- Found turtlebot3_gazebo: 2.2.4 (/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)\n'}
+[4.125873] (-) TimerEvent: {}
+[4.225668] (my_world) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.226101] (-) TimerEvent: {}
+[4.239164] (my_world) StdoutLine: {'line': b'-- Generating done\n'}
+[4.242368] (my_world) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/turtlebot3_ws/build/my_world\n'}
+[4.260599] (my_world) CommandEnded: {'returncode': 0}
+[4.262675] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'build'}
+[4.262830] (my_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/turtlebot3_ws/build/my_world', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1679'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1460'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/vboxuser/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c27bbed20fa2ffc704fc9443660136cd'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:35547'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vboxuser/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/linux:@/tmp/.ICE-unix/1718,unix/linux:/tmp/.ICE-unix/1718'), ('INVOCATION_ID', 'd14d9f4c0a8040309c30cbb378623093'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e00f92f9_6fa1_403d_8f7e_322a85c0abae'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c27bbed20fa2ffc704fc9443660136cd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic')]), 'shell': False}
+[4.326678] (my_world) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[4.326941] (-) TimerEvent: {}
+[4.387372] (my_world) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[4.427711] (-) TimerEvent: {}
+[4.528357] (-) TimerEvent: {}
+[4.630332] (-) TimerEvent: {}
+[4.731734] (-) TimerEvent: {}
+[4.832433] (-) TimerEvent: {}
+[4.933490] (-) TimerEvent: {}
+[5.035462] (-) TimerEvent: {}
+[5.136936] (-) TimerEvent: {}
+[5.238851] (-) TimerEvent: {}
+[5.340251] (-) TimerEvent: {}
+[5.442376] (-) TimerEvent: {}
+[5.543544] (-) TimerEvent: {}
+[5.644867] (-) TimerEvent: {}
+[5.746219] (-) TimerEvent: {}
+[5.849091] (-) TimerEvent: {}
+[5.950137] (-) TimerEvent: {}
+[6.051592] (-) TimerEvent: {}
+[6.152729] (-) TimerEvent: {}
+[6.253024] (-) TimerEvent: {}
+[6.354246] (-) TimerEvent: {}
+[6.455665] (-) TimerEvent: {}
+[6.557091] (-) TimerEvent: {}
+[6.658219] (-) TimerEvent: {}
+[6.759463] (-) TimerEvent: {}
+[6.860889] (-) TimerEvent: {}
+[6.962028] (-) TimerEvent: {}
+[7.063322] (-) TimerEvent: {}
+[7.165424] (-) TimerEvent: {}
+[7.266674] (-) TimerEvent: {}
+[7.368761] (-) TimerEvent: {}
+[7.470122] (-) TimerEvent: {}
+[7.571174] (-) TimerEvent: {}
+[7.672376] (-) TimerEvent: {}
+[7.773420] (-) TimerEvent: {}
+[7.874857] (-) TimerEvent: {}
+[7.976586] (-) TimerEvent: {}
+[8.077773] (-) TimerEvent: {}
+[8.178985] (-) TimerEvent: {}
+[8.280400] (-) TimerEvent: {}
+[8.381347] (-) TimerEvent: {}
+[8.482784] (-) TimerEvent: {}
+[8.584935] (-) TimerEvent: {}
+[8.686499] (-) TimerEvent: {}
+[8.788464] (-) TimerEvent: {}
+[8.889627] (-) TimerEvent: {}
+[8.990405] (-) TimerEvent: {}
+[9.090991] (-) TimerEvent: {}
+[9.191515] (-) TimerEvent: {}
+[9.292697] (-) TimerEvent: {}
+[9.393108] (-) TimerEvent: {}
+[9.493988] (-) TimerEvent: {}
+[9.595367] (-) TimerEvent: {}
+[9.696663] (-) TimerEvent: {}
+[9.797887] (-) TimerEvent: {}
+[9.899269] (-) TimerEvent: {}
+[10.000339] (-) TimerEvent: {}
+[10.101769] (-) TimerEvent: {}
+[10.203802] (-) TimerEvent: {}
+[10.304152] (-) TimerEvent: {}
+[10.405451] (-) TimerEvent: {}
+[10.506179] (-) TimerEvent: {}
+[10.607479] (-) TimerEvent: {}
+[10.708743] (-) TimerEvent: {}
+[10.810924] (-) TimerEvent: {}
+[10.911375] (-) TimerEvent: {}
+[11.012519] (-) TimerEvent: {}
+[11.113810] (-) TimerEvent: {}
+[11.214379] (-) TimerEvent: {}
+[11.315018] (-) TimerEvent: {}
+[11.416745] (-) TimerEvent: {}
+[11.518459] (-) TimerEvent: {}
+[11.619599] (-) TimerEvent: {}
+[11.721622] (-) TimerEvent: {}
+[11.822560] (-) TimerEvent: {}
+[11.923907] (-) TimerEvent: {}
+[12.024982] (-) TimerEvent: {}
+[12.126232] (-) TimerEvent: {}
+[12.227774] (-) TimerEvent: {}
+[12.328707] (-) TimerEvent: {}
+[12.429053] (-) TimerEvent: {}
+[12.529968] (-) TimerEvent: {}
+[12.630579] (-) TimerEvent: {}
+[12.731658] (-) TimerEvent: {}
+[12.833235] (-) TimerEvent: {}
+[12.934128] (-) TimerEvent: {}
+[13.035018] (-) TimerEvent: {}
+[13.135661] (-) TimerEvent: {}
+[13.237079] (-) TimerEvent: {}
+[13.339100] (-) TimerEvent: {}
+[13.440305] (-) TimerEvent: {}
+[13.541450] (-) TimerEvent: {}
+[13.642697] (-) TimerEvent: {}
+[13.743337] (-) TimerEvent: {}
+[13.844309] (-) TimerEvent: {}
+[13.945761] (-) TimerEvent: {}
+[14.047364] (-) TimerEvent: {}
+[14.148278] (-) TimerEvent: {}
+[14.248981] (-) TimerEvent: {}
+[14.349995] (-) TimerEvent: {}
+[14.451267] (-) TimerEvent: {}
+[14.553089] (-) TimerEvent: {}
+[14.654263] (-) TimerEvent: {}
+[14.754717] (-) TimerEvent: {}
+[14.855311] (-) TimerEvent: {}
+[14.956409] (-) TimerEvent: {}
+[15.057208] (-) TimerEvent: {}
+[15.157855] (-) TimerEvent: {}
+[15.258791] (-) TimerEvent: {}
+[15.359931] (-) TimerEvent: {}
+[15.461401] (-) TimerEvent: {}
+[15.561842] (-) TimerEvent: {}
+[15.586521] (my_world) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[15.662179] (-) TimerEvent: {}
+[15.762947] (-) TimerEvent: {}
+[15.864766] (-) TimerEvent: {}
+[15.966573] (-) TimerEvent: {}
+[16.068793] (-) TimerEvent: {}
+[16.101346] (my_world) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[16.118108] (my_world) CommandEnded: {'returncode': 0}
+[16.169291] (-) TimerEvent: {}
+[16.184537] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'install'}
+[16.209545] (my_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/turtlebot3_ws/build/my_world'], 'cwd': '/home/vboxuser/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1679'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1460'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/vboxuser/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c27bbed20fa2ffc704fc9443660136cd'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:35547'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vboxuser/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/linux:@/tmp/.ICE-unix/1718,unix/linux:/tmp/.ICE-unix/1718'), ('INVOCATION_ID', 'd14d9f4c0a8040309c30cbb378623093'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e00f92f9_6fa1_403d_8f7e_322a85c0abae'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c27bbed20fa2ffc704fc9443660136cd'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic')]), 'shell': False}
+[16.225779] (my_world) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.225986] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive\n'}
+[16.234738] (my_world) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""\n'}
+[16.235184] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//launch\n'}
+[16.235453] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py\n'}
+[16.235517] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models\n'}
+[16.235620] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world\n'}
+[16.235670] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config\n'}
+[16.235720] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf\n'}
+[16.235816] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger\n'}
+[16.235878] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes\n'}
+[16.235952] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae\n'}
+[16.236006] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae\n'}
+[16.236157] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae\n'}
+[16.236256] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf\n'}
+[16.236387] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config\n'}
+[16.236544] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf\n'}
+[16.236610] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world\n'}
+[16.236719] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world/burguer.model\n'}
+[16.236962] (my_world) StderrLine: {'line': b'CMake Error at cmake_install.cmake:61 (file):\n'}
+[16.237256] (my_world) StderrLine: {'line': b'  file INSTALL cannot find "/home/vboxuser/turtlebot3_ws/src/my_world/urdf":\n'}
+[16.237323] (my_world) StderrLine: {'line': b'  No such file or directory.\n'}
+[16.237461] (my_world) StderrLine: {'line': b'\n'}
+[16.237537] (my_world) StderrLine: {'line': b'\n'}
+[16.240296] (my_world) CommandEnded: {'returncode': 1}
+[16.270363] (-) TimerEvent: {}
+[16.373230] (-) TimerEvent: {}
+[16.431545] (my_world) JobEnded: {'identifier': 'my_world', 'rc': 1}
+[16.443189] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[console_scripts]
+movement_client = movimiento_manual_service.movement_client:main
+movement_server = movimiento_manual_service.movement_server:main
+

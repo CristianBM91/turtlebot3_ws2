@@ -1,0 +1,42 @@
+[0.709s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/movimiento_manual_service': CMAKE_PREFIX_PATH=/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/prefix_override:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/movimiento_manual_service build --build-base /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build install --record /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/install.log --single-version-externally-managed
+[0.880s] running egg_info
+[0.880s] creating ../../build/movimiento_manual_service/movimiento_manual_service.egg-info
+[0.881s] writing ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/PKG-INFO
+[0.882s] writing dependency_links to ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/dependency_links.txt
+[0.882s] writing entry points to ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/entry_points.txt
+[0.883s] writing requirements to ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/requires.txt
+[0.883s] writing top-level names to ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/top_level.txt
+[0.884s] writing manifest file '../../build/movimiento_manual_service/movimiento_manual_service.egg-info/SOURCES.txt'
+[0.910s] reading manifest file '../../build/movimiento_manual_service/movimiento_manual_service.egg-info/SOURCES.txt'
+[0.910s] writing manifest file '../../build/movimiento_manual_service/movimiento_manual_service.egg-info/SOURCES.txt'
+[0.911s] running build
+[0.911s] running build_py
+[0.911s] creating /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build
+[0.912s] creating /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib
+[0.913s] creating /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service
+[0.913s] copying movimiento_manual_service/movement_client.py -> /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service
+[0.913s] copying movimiento_manual_service/__init__.py -> /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service
+[0.914s] copying movimiento_manual_service/movement_server.py -> /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service
+[0.914s] running install
+[0.915s] running install_lib
+[0.916s] creating /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service
+[0.917s] copying /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service/movement_client.py -> /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service
+[0.918s] copying /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service/__init__.py -> /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service
+[0.918s] copying /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service/movement_server.py -> /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service
+[0.919s] byte-compiling /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service/movement_client.py to movement_client.cpython-38.pyc
+[0.921s] byte-compiling /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service/__init__.py to __init__.cpython-38.pyc
+[0.921s] byte-compiling /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service/movement_server.py to movement_server.cpython-38.pyc
+[0.922s] running install_data
+[0.922s] creating /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/share/ament_index
+[0.922s] creating /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/share/ament_index/resource_index
+[0.922s] creating /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/share/ament_index/resource_index/packages
+[0.923s] copying resource/movimiento_manual_service -> /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/share/ament_index/resource_index/packages
+[0.923s] copying package.xml -> /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/share/movimiento_manual_service
+[0.923s] copying launch/movement_server_launch.launch.py -> /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/share/movimiento_manual_service
+[0.923s] running install_egg_info
+[0.924s] Copying ../../build/movimiento_manual_service/movimiento_manual_service.egg-info to /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service-0.0.0-py3.8.egg-info
+[0.924s] running install_scripts
+[0.937s] Installing movement_client script to /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/movimiento_manual_service
+[0.937s] Installing movement_server script to /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/movimiento_manual_service
+[0.938s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/install.log'
+[0.953s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/movimiento_manual_service' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/prefix_override:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/movimiento_manual_service build --build-base /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build install --record /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/install.log --single-version-externally-managed

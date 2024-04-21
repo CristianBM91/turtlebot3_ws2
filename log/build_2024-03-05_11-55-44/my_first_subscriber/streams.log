@@ -1,0 +1,9 @@
+[1.337s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/my_first_subscriber': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/my_first_subscriber/prefix_override:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_subscriber build --build-base /home/vboxuser/turtlebot3_ws/build/my_first_subscriber/build install --record /home/vboxuser/turtlebot3_ws/build/my_first_subscriber/install.log --single-version-externally-managed
+[1.667s] running egg_info
+[1.668s] writing ../../build/my_first_subscriber/my_first_subscriber_mod.egg-info/PKG-INFO
+[1.669s] writing dependency_links to ../../build/my_first_subscriber/my_first_subscriber_mod.egg-info/dependency_links.txt
+[1.670s] writing entry points to ../../build/my_first_subscriber/my_first_subscriber_mod.egg-info/entry_points.txt
+[1.671s] writing requirements to ../../build/my_first_subscriber/my_first_subscriber_mod.egg-info/requires.txt
+[1.672s] writing top-level names to ../../build/my_first_subscriber/my_first_subscriber_mod.egg-info/top_level.txt
+[1.722s] error: package directory 'my_first_subscriber_mod' does not exist
+[1.748s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/my_first_subscriber' returned '1': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/my_first_subscriber/prefix_override:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_subscriber build --build-base /home/vboxuser/turtlebot3_ws/build/my_first_subscriber/build install --record /home/vboxuser/turtlebot3_ws/build/my_first_subscriber/install.log --single-version-externally-managed

@@ -1,0 +1,39 @@
+[0.797s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/show_msg': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/show_msg/prefix_override:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/vboxuser/turtlebot3_ws/build/show_msg/build install --record /home/vboxuser/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed
+[0.967s] running egg_info
+[0.968s] creating ../../build/show_msg/show_msg.egg-info
+[0.968s] writing ../../build/show_msg/show_msg.egg-info/PKG-INFO
+[0.968s] writing dependency_links to ../../build/show_msg/show_msg.egg-info/dependency_links.txt
+[0.968s] writing entry points to ../../build/show_msg/show_msg.egg-info/entry_points.txt
+[0.968s] writing requirements to ../../build/show_msg/show_msg.egg-info/requires.txt
+[0.968s] writing top-level names to ../../build/show_msg/show_msg.egg-info/top_level.txt
+[0.969s] writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[0.993s] reading manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[0.994s] writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[0.994s] running build
+[0.994s] running build_py
+[0.994s] creating /home/vboxuser/turtlebot3_ws/build/show_msg/build
+[0.994s] creating /home/vboxuser/turtlebot3_ws/build/show_msg/build/lib
+[0.994s] creating /home/vboxuser/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[0.994s] copying show_msg/__init__.py -> /home/vboxuser/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[0.994s] copying show_msg/show_msg.py -> /home/vboxuser/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[0.995s] running install
+[0.995s] running install_lib
+[0.996s] creating /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[0.996s] copying /home/vboxuser/turtlebot3_ws/build/show_msg/build/lib/show_msg/__init__.py -> /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[0.996s] copying /home/vboxuser/turtlebot3_ws/build/show_msg/build/lib/show_msg/show_msg.py -> /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[0.996s] byte-compiling /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/__init__.py to __init__.cpython-38.pyc
+[0.997s] byte-compiling /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/show_msg.py to show_msg.cpython-38.pyc
+[0.997s] running install_data
+[0.998s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (show_msg.py, line 14)
+[0.998s] creating /home/vboxuser/turtlebot3_ws/install/show_msg/share/ament_index
+[0.998s] creating /home/vboxuser/turtlebot3_ws/install/show_msg/share/ament_index/resource_index
+[0.998s] creating /home/vboxuser/turtlebot3_ws/install/show_msg/share/ament_index/resource_index/packages
+[0.998s] copying resource/show_msg -> /home/vboxuser/turtlebot3_ws/install/show_msg/share/ament_index/resource_index/packages
+[0.998s] copying package.xml -> /home/vboxuser/turtlebot3_ws/install/show_msg/share/show_msg
+[0.998s] copying launch/show_msg.launch.py -> /home/vboxuser/turtlebot3_ws/install/show_msg/share/show_msg
+[0.998s] running install_egg_info
+[0.999s] Copying ../../build/show_msg/show_msg.egg-info to /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info
+[1.000s] running install_scripts
+[1.012s] Installing show_msg script to /home/vboxuser/turtlebot3_ws/install/show_msg/lib/show_msg
+[1.013s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/show_msg/install.log'
+[1.026s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/show_msg' returned '0': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/show_msg/prefix_override:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/vboxuser/turtlebot3_ws/build/show_msg/build install --record /home/vboxuser/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed

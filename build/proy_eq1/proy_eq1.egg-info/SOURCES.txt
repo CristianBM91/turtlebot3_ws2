@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/proy_eq1/proy_eq1.egg-info/PKG-INFO
+../../build/proy_eq1/proy_eq1.egg-info/SOURCES.txt
+../../build/proy_eq1/proy_eq1.egg-info/dependency_links.txt
+../../build/proy_eq1/proy_eq1.egg-info/entry_points.txt
+../../build/proy_eq1/proy_eq1.egg-info/requires.txt
+../../build/proy_eq1/proy_eq1.egg-info/top_level.txt
+../../build/proy_eq1/proy_eq1.egg-info/zip-safe
+proy_eq1/__init__.py
+resource/proy_eq1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

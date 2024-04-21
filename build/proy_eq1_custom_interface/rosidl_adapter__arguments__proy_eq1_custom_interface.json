@@ -1,0 +1,8 @@
+{
+  "package_name": "proy_eq1_custom_interface",
+  "non_idl_tuples": [
+    "/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_custom_interface:msg/Distvel.msg",
+    "/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_custom_interface:srv/MyMoveMsg.srv",
+    "/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_custom_interface:action/Move.action"
+  ]
+}

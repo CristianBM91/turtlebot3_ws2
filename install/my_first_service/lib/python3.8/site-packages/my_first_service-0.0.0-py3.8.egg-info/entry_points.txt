@@ -1,0 +1,5 @@
+[console_scripts]
+circle_movement = my_first_service.circle_movement:main
+movement_client = my_first_service.movement_client:main
+movement_server = my_first_service.movement_server:main
+

@@ -1,0 +1,21 @@
+[0.000000] (-) TimerEvent: {}
+[0.000602] (-) JobUnselected: {'identifier': 'custom_interface'}
+[0.000629] (-) JobUnselected: {'identifier': 'movimiento_manual_service'}
+[0.000640] (-) JobUnselected: {'identifier': 'my_first_action'}
+[0.000656] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.000666] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.000676] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.000685] (-) JobUnselected: {'identifier': 'my_world'}
+[0.000694] (-) JobUnselected: {'identifier': 'proy_asun'}
+[0.000704] (-) JobUnselected: {'identifier': 'proy_eq1_custom_interface'}
+[0.000713] (-) JobUnselected: {'identifier': 'proy_eq1_nav_manual'}
+[0.000722] (-) JobUnselected: {'identifier': 'show_msg'}
+[0.000731] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000739] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000756] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000767] (proy_eq1) JobQueued: {'identifier': 'proy_eq1', 'dependencies': OrderedDict([('custom_interface', '/home/vboxuser/turtlebot3_ws/install/custom_interface'), ('proy_eq1_custom_interface', '/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface'), ('proy_eq1_nav_manual', '/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual')])}
+[0.000787] (proy_eq1) JobStarted: {'identifier': 'proy_eq1'}
+[0.100298] (-) TimerEvent: {}
+[0.200653] (-) TimerEvent: {}
+[0.201071] (proy_eq1) JobEnded: {'identifier': 'proy_eq1', 'rc': 1}
+[0.214140] (-) EventReactorShutdown: {}

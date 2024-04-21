@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/proy_eq1_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proy_eq1_custom_interface/action/detail/move__type_support.c.o"
+  "CMakeFiles/proy_eq1_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proy_eq1_custom_interface/msg/detail/distvel__type_support.c.o"
+  "CMakeFiles/proy_eq1_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/proy_eq1_custom_interface/srv/detail/my_move_msg__type_support.c.o"
+  "libproy_eq1_custom_interface__rosidl_typesupport_introspection_c.pdb"
+  "libproy_eq1_custom_interface__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/proy_eq1_custom_interface/action/detail/move__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/proy_eq1_custom_interface/action/detail/move__type_support.c"
+  "rosidl_typesupport_introspection_c/proy_eq1_custom_interface/msg/detail/distvel__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/proy_eq1_custom_interface/msg/detail/distvel__type_support.c"
+  "rosidl_typesupport_introspection_c/proy_eq1_custom_interface/srv/detail/my_move_msg__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/proy_eq1_custom_interface/srv/detail/my_move_msg__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/proy_eq1_custom_interface__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

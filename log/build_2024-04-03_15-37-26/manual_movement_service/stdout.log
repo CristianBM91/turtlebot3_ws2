@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/manual_movement_service/manual_movement_service.egg-info
+writing ../../build/manual_movement_service/manual_movement_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/manual_movement_service/manual_movement_service.egg-info/dependency_links.txt
+writing entry points to ../../build/manual_movement_service/manual_movement_service.egg-info/entry_points.txt
+writing requirements to ../../build/manual_movement_service/manual_movement_service.egg-info/requires.txt
+writing top-level names to ../../build/manual_movement_service/manual_movement_service.egg-info/top_level.txt
+writing manifest file '../../build/manual_movement_service/manual_movement_service.egg-info/SOURCES.txt'
+reading manifest file '../../build/manual_movement_service/manual_movement_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/manual_movement_service/manual_movement_service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build
+creating /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build/lib
+creating /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build/lib/manual_movement_service
+copying manual_movement_service/movement_client.py -> /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build/lib/manual_movement_service
+copying manual_movement_service/__init__.py -> /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build/lib/manual_movement_service
+copying manual_movement_service/movement_server.py -> /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build/lib/manual_movement_service
+running install
+running install_lib
+creating /home/vboxuser/turtlebot3_ws/install/manual_movement_service/lib/python3.8/site-packages/manual_movement_service
+copying /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build/lib/manual_movement_service/movement_client.py -> /home/vboxuser/turtlebot3_ws/install/manual_movement_service/lib/python3.8/site-packages/manual_movement_service
+copying /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build/lib/manual_movement_service/__init__.py -> /home/vboxuser/turtlebot3_ws/install/manual_movement_service/lib/python3.8/site-packages/manual_movement_service
+copying /home/vboxuser/turtlebot3_ws/build/manual_movement_service/build/lib/manual_movement_service/movement_server.py -> /home/vboxuser/turtlebot3_ws/install/manual_movement_service/lib/python3.8/site-packages/manual_movement_service
+byte-compiling /home/vboxuser/turtlebot3_ws/install/manual_movement_service/lib/python3.8/site-packages/manual_movement_service/movement_client.py to movement_client.cpython-38.pyc
+byte-compiling /home/vboxuser/turtlebot3_ws/install/manual_movement_service/lib/python3.8/site-packages/manual_movement_service/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/vboxuser/turtlebot3_ws/install/manual_movement_service/lib/python3.8/site-packages/manual_movement_service/movement_server.py to movement_server.cpython-38.pyc
+running install_data
+creating /home/vboxuser/turtlebot3_ws/install/manual_movement_service/share/ament_index
+creating /home/vboxuser/turtlebot3_ws/install/manual_movement_service/share/ament_index/resource_index
+creating /home/vboxuser/turtlebot3_ws/install/manual_movement_service/share/ament_index/resource_index/packages
+copying resource/manual_movement_service -> /home/vboxuser/turtlebot3_ws/install/manual_movement_service/share/ament_index/resource_index/packages
+copying package.xml -> /home/vboxuser/turtlebot3_ws/install/manual_movement_service/share/manual_movement_service
+running install_egg_info
+Copying ../../build/manual_movement_service/manual_movement_service.egg-info to /home/vboxuser/turtlebot3_ws/install/manual_movement_service/lib/python3.8/site-packages/manual_movement_service-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/manual_movement_service/install.log'

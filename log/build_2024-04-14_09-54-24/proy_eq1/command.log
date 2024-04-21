@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/turtlebot3_ws/build/proy_eq1': /usr/bin/cmake /home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/proy_eq1
+Invoked command in '/home/vboxuser/turtlebot3_ws/build/proy_eq1' returned '1': /usr/bin/cmake /home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1 -DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/proy_eq1

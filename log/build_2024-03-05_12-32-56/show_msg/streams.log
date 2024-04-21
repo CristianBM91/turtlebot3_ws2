@@ -1,0 +1,24 @@
+[0.851s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/show_msg': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/show_msg/prefix_override:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/vboxuser/turtlebot3_ws/build/show_msg/build install --record /home/vboxuser/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed
+[1.026s] running egg_info
+[1.026s] writing ../../build/show_msg/show_msg.egg-info/PKG-INFO
+[1.027s] writing dependency_links to ../../build/show_msg/show_msg.egg-info/dependency_links.txt
+[1.027s] writing entry points to ../../build/show_msg/show_msg.egg-info/entry_points.txt
+[1.027s] writing requirements to ../../build/show_msg/show_msg.egg-info/requires.txt
+[1.028s] writing top-level names to ../../build/show_msg/show_msg.egg-info/top_level.txt
+[1.053s] reading manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[1.053s] writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[1.054s] running build
+[1.054s] running build_py
+[1.054s] copying show_msg/show_msg.py -> /home/vboxuser/turtlebot3_ws/build/show_msg/build/lib/show_msg
+[1.055s] running install
+[1.055s] running install_lib
+[1.056s] copying /home/vboxuser/turtlebot3_ws/build/show_msg/build/lib/show_msg/show_msg.py -> /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg
+[1.056s] byte-compiling /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg/show_msg.py to show_msg.cpython-38.pyc
+[1.056s] running install_data
+[1.057s] running install_egg_info
+[1.059s] removing '/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.059s] Copying ../../build/show_msg/show_msg.egg-info to /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info
+[1.060s] running install_scripts
+[1.074s] Installing show_msg script to /home/vboxuser/turtlebot3_ws/install/show_msg/lib/show_msg
+[1.074s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/show_msg/install.log'
+[1.090s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/show_msg' returned '0': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/show_msg/prefix_override:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/vboxuser/turtlebot3_ws/build/show_msg/build install --record /home/vboxuser/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed

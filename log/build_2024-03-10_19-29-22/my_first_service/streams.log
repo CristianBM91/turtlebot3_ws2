@@ -1,0 +1,26 @@
+[0.881s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/my_first_service': CMAKE_PREFIX_PATH=/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/my_first_service/prefix_override:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_service build --build-base /home/vboxuser/turtlebot3_ws/build/my_first_service/build install --record /home/vboxuser/turtlebot3_ws/build/my_first_service/install.log --single-version-externally-managed
+[1.074s] running egg_info
+[1.075s] writing ../../build/my_first_service/my_first_service.egg-info/PKG-INFO
+[1.075s] writing dependency_links to ../../build/my_first_service/my_first_service.egg-info/dependency_links.txt
+[1.075s] writing entry points to ../../build/my_first_service/my_first_service.egg-info/entry_points.txt
+[1.075s] writing requirements to ../../build/my_first_service/my_first_service.egg-info/requires.txt
+[1.075s] writing top-level names to ../../build/my_first_service/my_first_service.egg-info/top_level.txt
+[1.103s] reading manifest file '../../build/my_first_service/my_first_service.egg-info/SOURCES.txt'
+[1.104s] writing manifest file '../../build/my_first_service/my_first_service.egg-info/SOURCES.txt'
+[1.104s] running build
+[1.104s] running build_py
+[1.104s] copying my_first_service/circle_movement.py -> /home/vboxuser/turtlebot3_ws/build/my_first_service/build/lib/my_first_service
+[1.105s] running install
+[1.105s] running install_lib
+[1.106s] copying /home/vboxuser/turtlebot3_ws/build/my_first_service/build/lib/my_first_service/circle_movement.py -> /home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service
+[1.106s] byte-compiling /home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service/circle_movement.py to circle_movement.cpython-38.pyc
+[1.107s] running install_data
+[1.108s] running install_egg_info
+[1.109s] removing '/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service-0.0.0-py3.8.egg-info' (and everything under it)
+[1.109s] Copying ../../build/my_first_service/my_first_service.egg-info to /home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages/my_first_service-0.0.0-py3.8.egg-info
+[1.110s] running install_scripts
+[1.126s] Installing circle_movement script to /home/vboxuser/turtlebot3_ws/install/my_first_service/lib/my_first_service
+[1.126s] Installing movement_client script to /home/vboxuser/turtlebot3_ws/install/my_first_service/lib/my_first_service
+[1.126s] Installing movement_server script to /home/vboxuser/turtlebot3_ws/install/my_first_service/lib/my_first_service
+[1.126s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/my_first_service/install.log'
+[1.148s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/my_first_service' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/my_first_service/prefix_override:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_service build --build-base /home/vboxuser/turtlebot3_ws/build/my_first_service/build install --record /home/vboxuser/turtlebot3_ws/build/my_first_service/install.log --single-version-externally-managed

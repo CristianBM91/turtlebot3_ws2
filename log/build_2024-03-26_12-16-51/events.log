@@ -1,0 +1,579 @@
+[0.000000] (-) TimerEvent: {}
+[0.000948] (-) JobUnselected: {'identifier': 'custom_interface'}
+[0.000986] (-) JobUnselected: {'identifier': 'my_first_action'}
+[0.001005] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.001020] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.001034] (-) JobUnselected: {'identifier': 'my_first_service'}
+[0.001048] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.001061] (-) JobUnselected: {'identifier': 'show_msg'}
+[0.001075] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001088] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001101] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001117] (my_world) JobQueued: {'identifier': 'my_world', 'dependencies': OrderedDict([('turtlebot3_gazebo', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo')])}
+[0.001139] (my_world) JobStarted: {'identifier': 'my_world'}
+[0.100601] (-) TimerEvent: {}
+[0.201895] (-) TimerEvent: {}
+[0.295887] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'cmake'}
+[0.296539] (my_world) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/turtlebot3_ws/src/my_world', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/my_world'], 'cwd': '/home/vboxuser/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1692'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1473'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/vboxuser/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59434b2ba077ee14e0294a526602ab86'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:37900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vboxuser/turtlebot3_ws/src/my_world/models:/home/vboxuser/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/linux:@/tmp/.ICE-unix/1731,unix/linux:/tmp/.ICE-unix/1731'), ('INVOCATION_ID', 'b92be1723744413da58c504e32851782'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/26fb45b9_571a_4ba8_b6b7_4f77fb9ed7b0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59434b2ba077ee14e0294a526602ab86'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic')]), 'shell': False}
+[0.302172] (-) TimerEvent: {}
+[0.402765] (-) TimerEvent: {}
+[0.503473] (-) TimerEvent: {}
+[0.594774] (my_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.603664] (-) TimerEvent: {}
+[0.704020] (-) TimerEvent: {}
+[0.794807] (my_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.804263] (-) TimerEvent: {}
+[0.815291] (my_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.904693] (-) TimerEvent: {}
+[0.912162] (my_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.915795] (my_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.004864] (-) TimerEvent: {}
+[1.008874] (my_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.020001] (my_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.021674] (my_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.026766] (my_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.105061] (-) TimerEvent: {}
+[1.139056] (my_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.140314] (my_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.206408] (-) TimerEvent: {}
+[1.249679] (my_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.263491] (my_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.264250] (my_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.279233] (my_world) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.307118] (-) TimerEvent: {}
+[1.335511] (my_world) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.335956] (my_world) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.408856] (-) TimerEvent: {}
+[1.509375] (-) TimerEvent: {}
+[1.557667] (my_world) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[1.564852] (my_world) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.590584] (my_world) StdoutLine: {'line': b'--   Found bullet, version 2.88\n'}
+[1.609523] (-) TimerEvent: {}
+[1.710404] (-) TimerEvent: {}
+[1.790586] (my_world) StdoutLine: {'line': b'-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") \n'}
+[1.810555] (-) TimerEvent: {}
+[1.870133] (my_world) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") \n'}
+[1.910801] (-) TimerEvent: {}
+[1.950356] (my_world) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.0.0") \n'}
+[2.011283] (-) TimerEvent: {}
+[2.022608] (my_world) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.111748] (-) TimerEvent: {}
+[2.212989] (-) TimerEvent: {}
+[2.313626] (-) TimerEvent: {}
+[2.414440] (-) TimerEvent: {}
+[2.458603] (my_world) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[2.514857] (-) TimerEvent: {}
+[2.526381] (my_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") \n'}
+[2.542259] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.567795] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.573820] (my_world) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.575029] (my_world) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[2.581482] (my_world) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[2.604769] (my_world) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.614895] (-) TimerEvent: {}
+[2.660489] (my_world) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.671947] (my_world) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.686308] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.696175] (my_world) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.696763] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.705117] (my_world) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.705670] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.713015] (my_world) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.713597] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.716351] (-) TimerEvent: {}
+[2.724147] (my_world) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.724695] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.733533] (my_world) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.734311] (my_world) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.742832] (my_world) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.816578] (-) TimerEvent: {}
+[2.917826] (-) TimerEvent: {}
+[2.938215] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.943467] (my_world) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.3.0\n'}
+[2.944135] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.969894] (my_world) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") \n'}
+[2.987549] (my_world) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.993095] (my_world) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[3.017655] (my_world) StdoutLine: {'line': b'--   Found libzmq , version 4.3.2\n'}
+[3.018297] (-) TimerEvent: {}
+[3.068621] (my_world) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[3.076432] (my_world) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[3.095453] (my_world) StdoutLine: {'line': b'--   Found uuid, version 2.34.0\n'}
+[3.118512] (-) TimerEvent: {}
+[3.142063] (my_world) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[3.147415] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.148080] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[3.177754] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.185046] (my_world) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[3.207439] (my_world) StdoutLine: {'line': b'--   Found tinyxml2, version 6.2.0\n'}
+[3.219496] (-) TimerEvent: {}
+[3.264870] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.269842] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.270630] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[3.271760] (my_world) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[3.272864] (my_world) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[3.274899] (my_world) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[3.287489] (my_world) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[3.292743] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.2\n'}
+[3.293429] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[3.294199] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.301563] (my_world) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.6.0\n'}
+[3.302202] (my_world) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[3.320631] (-) TimerEvent: {}
+[3.403090] (my_world) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  \n'}
+[3.416024] (my_world) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[3.421678] (-) TimerEvent: {}
+[3.435835] (my_world) StdoutLine: {'line': b'--   Found jsoncpp, version 1.7.4\n'}
+[3.489976] (my_world) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[3.504691] (my_world) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.522342] (-) TimerEvent: {}
+[3.526317] (my_world) StdoutLine: {'line': b'--   Found libzip, version 1.5.1\n'}
+[3.581978] (my_world) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[3.582914] (my_world) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.2\n'}
+[3.583354] (my_world) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.583850] (my_world) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.10.0\n'}
+[3.592963] (my_world) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)\n'}
+[3.599017] (my_world) StdoutLine: {'line': b'-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)\n'}
+[3.623082] (-) TimerEvent: {}
+[3.674406] (my_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.696243] (my_world) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[3.723796] (-) TimerEvent: {}
+[3.824395] (-) TimerEvent: {}
+[3.832360] (my_world) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.872742] (my_world) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[3.924672] (-) TimerEvent: {}
+[4.015013] (my_world) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.025553] (-) TimerEvent: {}
+[4.126018] (-) TimerEvent: {}
+[4.162420] (my_world) StdoutLine: {'line': b'-- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)\n'}
+[4.227019] (-) TimerEvent: {}
+[4.257181] (my_world) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[4.327286] (-) TimerEvent: {}
+[4.381259] (my_world) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[4.390651] (my_world) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[4.425678] (my_world) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[4.427911] (my_world) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.428432] (-) TimerEvent: {}
+[4.528939] (-) TimerEvent: {}
+[4.629113] (my_world) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[4.629405] (-) TimerEvent: {}
+[4.727115] (my_world) StdoutLine: {'line': b'-- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)\n'}
+[4.729460] (-) TimerEvent: {}
+[4.751083] (my_world) StdoutLine: {'line': b'-- Found turtlebot3_gazebo: 2.2.4 (/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)\n'}
+[4.830800] (-) TimerEvent: {}
+[4.893903] (my_world) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.907473] (my_world) StdoutLine: {'line': b'-- Generating done\n'}
+[4.910491] (my_world) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/turtlebot3_ws/build/my_world\n'}
+[4.923748] (my_world) CommandEnded: {'returncode': 0}
+[4.928560] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'build'}
+[4.928603] (my_world) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/turtlebot3_ws/build/my_world', '--', '-j4', '-l4'], 'cwd': '/home/vboxuser/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1692'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1473'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/vboxuser/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59434b2ba077ee14e0294a526602ab86'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:37900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vboxuser/turtlebot3_ws/src/my_world/models:/home/vboxuser/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/linux:@/tmp/.ICE-unix/1731,unix/linux:/tmp/.ICE-unix/1731'), ('INVOCATION_ID', 'b92be1723744413da58c504e32851782'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/26fb45b9_571a_4ba8_b6b7_4f77fb9ed7b0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59434b2ba077ee14e0294a526602ab86'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic')]), 'shell': False}
+[4.931802] (-) TimerEvent: {}
+[4.986220] (my_world) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target turtlebot3_drive\x1b[0m\n'}
+[5.032121] (-) TimerEvent: {}
+[5.070139] (my_world) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[5.132319] (-) TimerEvent: {}
+[5.233693] (-) TimerEvent: {}
+[5.334196] (-) TimerEvent: {}
+[5.434607] (-) TimerEvent: {}
+[5.535416] (-) TimerEvent: {}
+[5.636037] (-) TimerEvent: {}
+[5.737155] (-) TimerEvent: {}
+[5.838341] (-) TimerEvent: {}
+[5.939543] (-) TimerEvent: {}
+[6.040766] (-) TimerEvent: {}
+[6.141103] (-) TimerEvent: {}
+[6.242431] (-) TimerEvent: {}
+[6.343455] (-) TimerEvent: {}
+[6.444739] (-) TimerEvent: {}
+[6.546214] (-) TimerEvent: {}
+[6.647341] (-) TimerEvent: {}
+[6.748576] (-) TimerEvent: {}
+[6.849784] (-) TimerEvent: {}
+[6.951099] (-) TimerEvent: {}
+[7.052201] (-) TimerEvent: {}
+[7.152817] (-) TimerEvent: {}
+[7.254043] (-) TimerEvent: {}
+[7.355295] (-) TimerEvent: {}
+[7.456512] (-) TimerEvent: {}
+[7.558132] (-) TimerEvent: {}
+[7.660282] (-) TimerEvent: {}
+[7.762696] (-) TimerEvent: {}
+[7.863875] (-) TimerEvent: {}
+[7.965103] (-) TimerEvent: {}
+[8.066339] (-) TimerEvent: {}
+[8.167619] (-) TimerEvent: {}
+[8.268914] (-) TimerEvent: {}
+[8.371114] (-) TimerEvent: {}
+[8.472311] (-) TimerEvent: {}
+[8.573139] (-) TimerEvent: {}
+[8.674314] (-) TimerEvent: {}
+[8.775482] (-) TimerEvent: {}
+[8.876722] (-) TimerEvent: {}
+[8.978039] (-) TimerEvent: {}
+[9.079474] (-) TimerEvent: {}
+[9.180555] (-) TimerEvent: {}
+[9.281665] (-) TimerEvent: {}
+[9.382993] (-) TimerEvent: {}
+[9.484340] (-) TimerEvent: {}
+[9.585777] (-) TimerEvent: {}
+[9.686407] (-) TimerEvent: {}
+[9.787307] (-) TimerEvent: {}
+[9.889036] (-) TimerEvent: {}
+[9.990303] (-) TimerEvent: {}
+[10.090994] (-) TimerEvent: {}
+[10.191789] (-) TimerEvent: {}
+[10.292988] (-) TimerEvent: {}
+[10.394159] (-) TimerEvent: {}
+[10.495441] (-) TimerEvent: {}
+[10.596517] (-) TimerEvent: {}
+[10.697790] (-) TimerEvent: {}
+[10.798709] (-) TimerEvent: {}
+[10.899778] (-) TimerEvent: {}
+[11.000419] (-) TimerEvent: {}
+[11.101947] (-) TimerEvent: {}
+[11.203242] (-) TimerEvent: {}
+[11.304168] (-) TimerEvent: {}
+[11.404862] (-) TimerEvent: {}
+[11.506134] (-) TimerEvent: {}
+[11.607280] (-) TimerEvent: {}
+[11.707686] (-) TimerEvent: {}
+[11.808414] (-) TimerEvent: {}
+[11.909419] (-) TimerEvent: {}
+[12.010591] (-) TimerEvent: {}
+[12.111029] (-) TimerEvent: {}
+[12.211377] (-) TimerEvent: {}
+[12.311701] (-) TimerEvent: {}
+[12.412538] (-) TimerEvent: {}
+[12.513101] (-) TimerEvent: {}
+[12.614105] (-) TimerEvent: {}
+[12.715308] (-) TimerEvent: {}
+[12.816081] (-) TimerEvent: {}
+[12.917106] (-) TimerEvent: {}
+[13.018445] (-) TimerEvent: {}
+[13.120609] (-) TimerEvent: {}
+[13.220945] (-) TimerEvent: {}
+[13.321784] (-) TimerEvent: {}
+[13.422884] (-) TimerEvent: {}
+[13.524230] (-) TimerEvent: {}
+[13.624515] (-) TimerEvent: {}
+[13.724796] (-) TimerEvent: {}
+[13.825385] (-) TimerEvent: {}
+[13.926347] (-) TimerEvent: {}
+[14.026768] (-) TimerEvent: {}
+[14.127193] (-) TimerEvent: {}
+[14.227768] (-) TimerEvent: {}
+[14.328107] (-) TimerEvent: {}
+[14.428468] (-) TimerEvent: {}
+[14.529207] (-) TimerEvent: {}
+[14.630164] (-) TimerEvent: {}
+[14.730834] (-) TimerEvent: {}
+[14.831882] (-) TimerEvent: {}
+[14.932170] (-) TimerEvent: {}
+[15.033570] (-) TimerEvent: {}
+[15.134795] (-) TimerEvent: {}
+[15.236007] (-) TimerEvent: {}
+[15.337522] (-) TimerEvent: {}
+[15.438337] (-) TimerEvent: {}
+[15.539050] (-) TimerEvent: {}
+[15.640361] (-) TimerEvent: {}
+[15.741595] (-) TimerEvent: {}
+[15.843220] (-) TimerEvent: {}
+[15.944629] (-) TimerEvent: {}
+[16.045664] (-) TimerEvent: {}
+[16.146811] (-) TimerEvent: {}
+[16.248104] (-) TimerEvent: {}
+[16.349333] (-) TimerEvent: {}
+[16.450556] (-) TimerEvent: {}
+[16.551707] (-) TimerEvent: {}
+[16.652973] (-) TimerEvent: {}
+[16.754099] (-) TimerEvent: {}
+[16.854588] (-) TimerEvent: {}
+[16.956402] (-) TimerEvent: {}
+[17.057616] (-) TimerEvent: {}
+[17.158078] (-) TimerEvent: {}
+[17.259152] (-) TimerEvent: {}
+[17.361471] (-) TimerEvent: {}
+[17.461818] (-) TimerEvent: {}
+[17.512526] (my_world) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[17.561988] (-) TimerEvent: {}
+[17.662517] (-) TimerEvent: {}
+[17.764004] (-) TimerEvent: {}
+[17.865238] (-) TimerEvent: {}
+[17.966519] (-) TimerEvent: {}
+[18.068093] (-) TimerEvent: {}
+[18.079117] (my_world) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[18.095300] (my_world) CommandEnded: {'returncode': 0}
+[18.128769] (my_world) JobProgress: {'identifier': 'my_world', 'progress': 'install'}
+[18.141851] (my_world) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/turtlebot3_ws/build/my_world'], 'cwd': '/home/vboxuser/turtlebot3_ws/build/my_world', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1692'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1473'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/vboxuser/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59434b2ba077ee14e0294a526602ab86'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:37900'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vboxuser/turtlebot3_ws/src/my_world/models:/home/vboxuser/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/linux:@/tmp/.ICE-unix/1731,unix/linux:/tmp/.ICE-unix/1731'), ('INVOCATION_ID', 'b92be1723744413da58c504e32851782'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/26fb45b9_571a_4ba8_b6b7_4f77fb9ed7b0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/turtlebot3_ws/build/my_world'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59434b2ba077ee14e0294a526602ab86'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic')]), 'shell': False}
+[18.152103] (my_world) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.152789] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive\n'}
+[18.158462] (my_world) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""\n'}
+[18.159234] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//launch\n'}
+[18.159638] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py\n'}
+[18.160024] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models\n'}
+[18.160548] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage\n'}
+[18.160925] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_3.sdf\n'}
+[18.161281] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials\n'}
+[18.161681] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures\n'}
+[18.162048] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Wood_Bamboo_Medium_.png\n'}
+[18.162432] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Carpet_Berber_Pattern_Gray_.png\n'}
+[18.162798] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__auto_2.png\n'}
+[18.163174] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__auto_12.png\n'}
+[18.163704] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/__Wood_Bamboo_Medium_1.png\n'}
+[18.163896] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Stone_Brushed_Khaki_.png\n'}
+[18.163973] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/materials/textures/Wood_Cherry_Original_.png\n'}
+[18.164044] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes\n'}
+[18.164105] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes/willowgarage_visual.dae\n'}
+[18.164164] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/meshes/willowgarage_collision.dae\n'}
+[18.165487] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_4.sdf\n'}
+[18.165785] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model.config\n'}
+[18.165982] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model-1_2.sdf\n'}
+[18.166052] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/willowgarage/model.sdf\n'}
+[18.166376] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining\n'}
+[18.166573] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model-1_3.sdf\n'}
+[18.166890] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials\n'}
+[18.167077] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures\n'}
+[18.167430] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_38.png\n'}
+[18.167720] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_22.png\n'}
+[18.167922] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_66.png\n'}
+[18.168293] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_18.png\n'}
+[18.168476] (-) TimerEvent: {}
+[18.202274] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_21.png\n'}
+[18.202577] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_8.png\n'}
+[18.202724] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_30.png\n'}
+[18.202859] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_41.png\n'}
+[18.203154] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_53.png\n'}
+[18.203351] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_60.png\n'}
+[18.203521] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_40.png\n'}
+[18.203842] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_47.png\n'}
+[18.204203] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_52.png\n'}
+[18.204376] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_61.png\n'}
+[18.204500] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_50.png\n'}
+[18.204829] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_7.png\n'}
+[18.205133] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_2.png\n'}
+[18.205403] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_17.png\n'}
+[18.205751] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_51.png\n'}
+[18.206200] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_49.png\n'}
+[18.206485] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_43.png\n'}
+[18.206887] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_13.png\n'}
+[18.207386] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_39.png\n'}
+[18.207505] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_44.png\n'}
+[18.207625] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_25.png\n'}
+[18.207905] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_19.png\n'}
+[18.208128] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_14.png\n'}
+[18.208314] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_57.png\n'}
+[18.208573] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_28.png\n'}
+[18.208927] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_42.png\n'}
+[18.209122] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_46.png\n'}
+[18.209467] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_45.png\n'}
+[18.209789] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_9.png\n'}
+[18.210078] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_29.png\n'}
+[18.210302] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_64.png\n'}
+[18.211111] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_20.png\n'}
+[18.211364] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_24.png\n'}
+[18.211438] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_1.png\n'}
+[18.211547] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_56.png\n'}
+[18.211993] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_16.png\n'}
+[18.212197] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_59.png\n'}
+[18.212372] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/materials/textures/__auto_69.png\n'}
+[18.212786] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/meshes\n'}
+[18.212946] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/meshes/kitchen_dining.dae\n'}
+[18.223988] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model-1_4.sdf\n'}
+[18.224187] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model.config\n'}
+[18.224504] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kitchen_dining/model.sdf\n'}
+[18.224686] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe\n'}
+[18.224825] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials\n'}
+[18.224912] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures\n'}
+[18.225057] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_37.jpg\n'}
+[18.225225] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_22.jpg\n'}
+[18.225424] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_35.jpg\n'}
+[18.225588] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_30.jpg\n'}
+[18.225761] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_29.jpg\n'}
+[18.225890] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_31.jpg\n'}
+[18.226155] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_28.jpg\n'}
+[18.226435] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_23.jpg\n'}
+[18.226741] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_21.jpg\n'}
+[18.226988] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_2.jpg\n'}
+[18.227110] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_10.jpg\n'}
+[18.227303] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_25.jpg\n'}
+[18.227520] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_24.jpg\n'}
+[18.227648] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_34.jpg\n'}
+[18.227784] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/materials/textures/__auto_26.jpg\n'}
+[18.228080] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/meshes\n'}
+[18.228250] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/meshes/cafe.dae\n'}
+[18.230757] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/model.config\n'}
+[18.230941] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cafe/model.sdf\n'}
+[18.231090] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho\n'}
+[18.231476] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes\n'}
+[18.231592] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Roughness.png\n'}
+[18.232344] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Normal.png\n'}
+[18.235984] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_BaseColor.png\n'}
+[18.242293] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Metallic.png\n'}
+[18.242545] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/Doguinho_low_poly_doguinho_uv_Height.png\n'}
+[18.244419] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/meshes/doguinho.dae\n'}
+[18.253348] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/model.config\n'}
+[18.253570] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho/model.sdf\n'}
+[18.253659] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/ej0vwvf0j8jk-lowpolycat\n'}
+[18.253730] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve\n'}
+[18.254904] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials\n'}
+[18.255324] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials/textures\n'}
+[18.255734] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/materials/textures/Metal_Rough.png\n'}
+[18.256134] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes\n'}
+[18.256581] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes/attachment.dae\n'}
+[18.257024] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/meshes/ball_valve.dae\n'}
+[18.257646] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model-1_4.sdf\n'}
+[18.257734] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model.config\n'}
+[18.257808] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/drc_practice_ball_valve/model.sdf\n'}
+[18.257870] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye\n'}
+[18.257935] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes\n'}
+[18.257996] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeye.png\n'}
+[18.258056] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/shoes03_diffuse.png\n'}
+[18.258117] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/young_darkskinned_male_diffuse.png\n'}
+[18.261419] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeye.dae\n'}
+[18.264330] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/eyebrow001.png\n'}
+[18.264658] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/male_casualsuit03_diffuse.png\n'}
+[18.269239] (-) TimerEvent: {}
+[18.269683] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/male_casualsuit03_normal.png\n'}
+[18.290871] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/bobeyev2.dae\n'}
+[18.297867] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/brown_eye.png\n'}
+[18.299417] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/tongue01_diffuse.png\n'}
+[18.300686] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/meshes/teeth.png\n'}
+[18.303350] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/model.config\n'}
+[18.303499] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/bobeye/model.sdf\n'}
+[18.303772] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment\n'}
+[18.303839] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials\n'}
+[18.303911] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures\n'}
+[18.303975] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures/apartment_diffuse.jpg\n'}
+[18.304488] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment/materials/textures/apartment_spec.jpg\n'}
+[18.305053] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment/meshes\n'}
+[18.305271] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment/meshes/apartment.dae\n'}
+[18.306304] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment/model.config\n'}
+[18.306498] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/apartment/model.sdf\n'}
+[18.307113] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment\n'}
+[18.307263] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/meshes\n'}
+[18.307524] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/meshes/model.dae\n'}
+[18.307594] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/model.config\n'}
+[18.307680] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/sweedish_apartment/model.sdf\n'}
+[18.307924] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball\n'}
+[18.308130] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.config\n'}
+[18.308418] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.rsdf\n'}
+[18.308509] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/cricket_ball/model.sdf\n'}
+[18.308585] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye\n'}
+[18.308860] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes\n'}
+[18.308969] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeye.png\n'}
+[18.309109] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeyev2.dae\n'}
+[18.315541] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/short01_diffuse.png\n'}
+[18.320491] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/eyebrow010.png\n'}
+[18.320619] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/kumaeye.dae\n'}
+[18.322973] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/male_worksuit01_normal.png\n'}
+[18.333520] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/brown_eye.png\n'}
+[18.334443] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/tongue01_diffuse.png\n'}
+[18.335530] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/male_worksuit01_diffuse.png\n'}
+[18.339977] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/teeth.png\n'}
+[18.342588] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/meshes/young_lightskinned_female_diffuse3.png\n'}
+[18.348415] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/model.config\n'}
+[18.348551] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/kumaeye/model.sdf\n'}
+[18.348814] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world\n'}
+[18.348991] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config\n'}
+[18.349079] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf\n'}
+[18.349153] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger\n'}
+[18.349248] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes\n'}
+[18.349505] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae\n'}
+[18.349653] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae\n'}
+[18.349760] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae\n'}
+[18.349831] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf\n'}
+[18.350222] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config\n'}
+[18.350535] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf\n'}
+[18.350677] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1\n'}
+[18.350754] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes\n'}
+[18.350818] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SICK_V2_WHITE.jpg\n'}
+[18.350914] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_manipulation_challenge_logo.png\n'}
+[18.350980] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/box_labels.png\n'}
+[18.351041] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SICK_V2.png\n'}
+[18.351103] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/FetchLogo-1024x388.png\n'}
+[18.351165] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/EandM.jpg\n'}
+[18.351233] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version2.dae\n'}
+[18.351296] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/rock1.JPG\n'}
+[18.352473] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version3.dae\n'}
+[18.357006] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version4.dae\n'}
+[18.361423] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/dummy.png\n'}
+[18.361555] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/icra2019-poster-image.png\n'}
+[18.361906] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/fetchit_env_version1.dae\n'}
+[18.362032] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/warehouse_collision.stl\n'}
+[18.362101] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/SCHUNK_logo.jpg\n'}
+[18.362436] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/Logo-TheConstruct-primario-NEW-tagline-2.jpg\n'}
+[18.362564] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/meshes/Logo-SICK.jpg\n'}
+[18.362681] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/model.config\n'}
+[18.362743] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/warehouse_1/model.sdf\n'}
+[18.362807] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye\n'}
+[18.362876] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes\n'}
+[18.362939] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/green_eye.png\n'}
+[18.363466] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/female_elegantsuit01_diffuse.png\n'}
+[18.366263] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseye.png\n'}
+[18.366630] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/braid01_diffuse.png\n'}
+[18.369613] (-) TimerEvent: {}
+[18.370887] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseye.dae\n'}
+[18.374193] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/tongue01_diffuse.png\n'}
+[18.375301] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/female_elegantsuit01_normal.png\n'}
+[18.377758] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/old_lightskinned_female_diffuse.png\n'}
+[18.384387] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/gertrudiseyev2.dae\n'}
+[18.390709] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/meshes/teeth.png\n'}
+[18.393173] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/model.config\n'}
+[18.393431] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/gertrudiseye/model.sdf\n'}
+[18.393554] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing\n'}
+[18.393911] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.config\n'}
+[18.394056] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.rsdf\n'}
+[18.394150] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/ball_bearing/model.sdf\n'}
+[18.394247] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/doguinho.zip\n'}
+[18.409170] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye\n'}
+[18.409464] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes\n'}
+[18.409533] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeye.dae\n'}
+[18.422117] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeye.png\n'}
+[18.423053] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/bob02_diffuse.png\n'}
+[18.427619] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/female_casualsuit02_diffuse.png\n'}
+[18.433248] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/female_casualsuit02_normal.png\n'}
+[18.435863] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/eyebrow001.png\n'}
+[18.436188] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/brown_eye.png\n'}
+[18.437282] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/meshes/naokoeyev2.dae\n'}
+[18.449078] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/model.config\n'}
+[18.449252] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/naokoeye/model.sdf\n'}
+[18.449644] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi\n'}
+[18.449773] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes\n'}
+[18.450022] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/tire.dae\n'}
+[18.450200] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/burger_base.dae\n'}
+[18.450297] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/meshes/lds.dae\n'}
+[18.450478] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model-1_4.sdf\n'}
+[18.450569] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model.config\n'}
+[18.450633] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger_pi/model.sdf\n'}
+[18.450840] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world\n'}
+[18.450918] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world/burger_pi.model\n'}
+[18.451382] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world/burger.model\n'}
+[18.451847] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//urdf\n'}
+[18.452171] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger.urdf\n'}
+[18.452267] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger_pi.urdf\n'}
+[18.452545] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/include/\n'}
+[18.452844] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world\n'}
+[18.453206] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world\n'}
+[18.453664] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh\n'}
+[18.453792] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.dsv\n'}
+[18.453864] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/environment/path.sh\n'}
+[18.454204] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/environment/path.dsv\n'}
+[18.454344] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/local_setup.bash\n'}
+[18.454413] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/local_setup.sh\n'}
+[18.454476] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/local_setup.zsh\n'}
+[18.454538] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/local_setup.dsv\n'}
+[18.454598] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/package.dsv\n'}
+[18.454712] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/ament_index/resource_index/packages/my_world\n'}
+[18.454791] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[18.454852] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.454912] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig.cmake\n'}
+[18.454971] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake\n'}
+[18.455077] (my_world) StdoutLine: {'line': b'-- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/package.xml\n'}
+[18.459250] (my_world) CommandEnded: {'returncode': 0}
+[18.469981] (-) TimerEvent: {}
+[18.574149] (-) TimerEvent: {}
+[18.674704] (-) TimerEvent: {}
+[18.778257] (-) TimerEvent: {}
+[18.883710] (-) TimerEvent: {}
+[18.891578] (my_world) JobEnded: {'identifier': 'my_world', 'rc': 0}
+[18.893154] (-) EventReactorShutdown: {}

@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info
+writing ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/PKG-INFO
+writing dependency_links to ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/dependency_links.txt
+writing entry points to ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/entry_points.txt
+writing requirements to ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/requires.txt
+writing top-level names to ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/top_level.txt
+writing manifest file '../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/SOURCES.txt'
+reading manifest file '../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/SOURCES.txt'
+writing manifest file '../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build/lib
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build/lib/proy_eq1_provide_map
+copying proy_eq1_provide_map/__init__.py -> /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build/lib/proy_eq1_provide_map
+running install
+running install_lib
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages/proy_eq1_provide_map
+copying /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build/lib/proy_eq1_provide_map/__init__.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages/proy_eq1_provide_map
+byte-compiling /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages/proy_eq1_provide_map/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/ament_index
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/ament_index/resource_index
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/ament_index/resource_index/packages
+copying resource/proy_eq1_provide_map -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/ament_index/resource_index/packages
+copying package.xml -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/map
+copying map/my_map.pgm -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/map
+copying map/my_map.yaml -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/map
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/rviz
+copying rviz/tb3_gazebo.rviz -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/rviz
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/launch
+copying launch/proy_eq1_provide_map.launch.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/launch
+running install_egg_info
+Copying ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info to /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages/proy_eq1_provide_map-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/install.log'

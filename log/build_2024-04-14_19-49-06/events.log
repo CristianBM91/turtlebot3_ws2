@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000287] (-) JobUnselected: {'identifier': 'proy_eq1'}
+[0.000312] (-) JobUnselected: {'identifier': 'proy_eq1_custom_interface'}
+[0.000326] (-) JobUnselected: {'identifier': 'proy_eq1_mundo'}
+[0.000338] (-) JobUnselected: {'identifier': 'proy_eq1_nav_manual'}
+[0.000350] (-) JobUnselected: {'identifier': 'proy_eq1_provide_map'}
+[0.000362] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000374] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000385] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000656] (-) EventReactorShutdown: {}

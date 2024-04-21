@@ -1,0 +1,20 @@
+[0.646s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_nav_manual': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/proy_eq1_nav_manual/prefix_override:/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_eq1_nav_manual build --build-base /home/vboxuser/turtlebot3_ws/build/proy_eq1_nav_manual/build install --record /home/vboxuser/turtlebot3_ws/build/proy_eq1_nav_manual/install.log --single-version-externally-managed
+[0.796s] running egg_info
+[0.796s] writing ../../../build/proy_eq1_nav_manual/proy_eq1_nav_manual.egg-info/PKG-INFO
+[0.796s] writing dependency_links to ../../../build/proy_eq1_nav_manual/proy_eq1_nav_manual.egg-info/dependency_links.txt
+[0.796s] writing entry points to ../../../build/proy_eq1_nav_manual/proy_eq1_nav_manual.egg-info/entry_points.txt
+[0.797s] writing requirements to ../../../build/proy_eq1_nav_manual/proy_eq1_nav_manual.egg-info/requires.txt
+[0.797s] writing top-level names to ../../../build/proy_eq1_nav_manual/proy_eq1_nav_manual.egg-info/top_level.txt
+[0.819s] reading manifest file '../../../build/proy_eq1_nav_manual/proy_eq1_nav_manual.egg-info/SOURCES.txt'
+[0.820s] writing manifest file '../../../build/proy_eq1_nav_manual/proy_eq1_nav_manual.egg-info/SOURCES.txt'
+[0.820s] running build
+[0.820s] running build_py
+[0.820s] running install
+[0.820s] running install_lib
+[0.821s] running install_data
+[0.821s] running install_egg_info
+[0.822s] removing '/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual/lib/python3.8/site-packages/proy_eq1_nav_manual-0.0.0-py3.8.egg-info' (and everything under it)
+[0.823s] Copying ../../../build/proy_eq1_nav_manual/proy_eq1_nav_manual.egg-info to /home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual/lib/python3.8/site-packages/proy_eq1_nav_manual-0.0.0-py3.8.egg-info
+[0.823s] running install_scripts
+[0.834s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/proy_eq1_nav_manual/install.log'
+[0.846s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_nav_manual' returned '0': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/proy_eq1_nav_manual/prefix_override:/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_eq1_nav_manual build --build-base /home/vboxuser/turtlebot3_ws/build/proy_eq1_nav_manual/build install --record /home/vboxuser/turtlebot3_ws/build/proy_eq1_nav_manual/install.log --single-version-externally-managed

@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (-) JobUnselected: {'identifier': 'custom_interface'}
+[0.000358] (-) JobUnselected: {'identifier': 'movimiento_manual_service'}
+[0.000369] (-) JobUnselected: {'identifier': 'my_first_action'}
+[0.000378] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.000387] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.000396] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.000404] (-) JobUnselected: {'identifier': 'my_world'}
+[0.000412] (-) JobUnselected: {'identifier': 'proy_asun'}
+[0.000420] (-) JobUnselected: {'identifier': 'proy_eq1_custom_interface'}
+[0.000429] (-) JobUnselected: {'identifier': 'proy_eq1_custom_interface'}
+[0.000437] (-) JobUnselected: {'identifier': 'proy_eq1_nav_manual'}
+[0.000445] (-) JobUnselected: {'identifier': 'show_msg'}
+[0.000453] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000462] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000470] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000480] (proy_eq1) JobQueued: {'identifier': 'proy_eq1', 'dependencies': OrderedDict([('proy_eq1_custom_interface', '/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface'), ('proy_eq1_nav_manual', '/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual')])}
+[0.000495] (proy_eq1) JobStarted: {'identifier': 'proy_eq1'}
+[0.100836] (-) TimerEvent: {}
+[0.110056] (proy_eq1) JobProgress: {'identifier': 'proy_eq1', 'progress': 'cmake'}
+[0.110577] (proy_eq1) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/proy_eq1'], 'cwd': '/home/vboxuser/turtlebot3_ws/build/proy_eq1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'vboxuser'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1713'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vboxuser/turtlebot3_ws/install/custom_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1494'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('ROS_LOG_DIR', '/home/vboxuser/my_logs'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dec251678b3c4ba5410c6ed0661b8056'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:36663'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/vboxuser/turtlebot3_ws/src/my_world/models:/home/vboxuser/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/vboxuser/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/linux:@/tmp/.ICE-unix/1753,unix/linux:/tmp/.ICE-unix/1753'), ('INVOCATION_ID', '0d6830eb5f544369896ed0944f96e535'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/58622114_453e_4e1c_884d_869981889bdc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.257'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service:/home/vboxuser/turtlebot3_ws/install/custom_interface:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/turtlebot3_ws/build/proy_eq1'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=dec251678b3c4ba5410c6ed0661b8056'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/proy_eq1/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_action/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/my_world:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node:/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/proy_eq1_nav_manual:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service:/opt/ros/galactic')]), 'shell': False}
+[0.118728] (proy_eq1) StderrLine: {'line': b'CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.118878] (proy_eq1) StderrLine: {'line': b'  cmake_minimum_required called with unknown argument "VERSION3.5".\n'}
+[0.118920] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.118958] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.123848] (proy_eq1) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.141746] (proy_eq1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.186083] (proy_eq1) StderrLine: {'line': b'CMake Error at CMakeLists.txt:6 (add_subdirectory):\n'}
+[0.186202] (proy_eq1) StderrLine: {'line': b'  add_subdirectory given source "./proy_eq1_custom_interface" which is not an\n'}
+[0.186245] (proy_eq1) StderrLine: {'line': b'  existing directory.\n'}
+[0.186282] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.186318] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.186353] (proy_eq1) StderrLine: {'line': b'CMake Error at CMakeLists.txt:7 (add_subdirectory):\n'}
+[0.186389] (proy_eq1) StderrLine: {'line': b'  add_subdirectory given source "./proy_eq1_nav_manual" which is not an\n'}
+[0.186425] (proy_eq1) StderrLine: {'line': b'  existing directory.\n'}
+[0.186500] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.186536] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.201433] (-) TimerEvent: {}
+[0.224207] (proy_eq1) StderrLine: {'line': b'CMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):\n'}
+[0.224318] (proy_eq1) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[0.224360] (proy_eq1) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[0.224419] (proy_eq1) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.224456] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.224492] (proy_eq1) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[0.224528] (proy_eq1) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[0.224564] (proy_eq1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.224600] (proy_eq1) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[0.224636] (proy_eq1) StderrLine: {'line': b'  CMakeLists.txt:10 (ament_package)\n'}
+[0.224678] (proy_eq1) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.224718] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.224753] (proy_eq1) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:41 (if):\n'}
+[0.224793] (proy_eq1) StderrLine: {'line': b'  if given arguments:\n'}
+[0.224829] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.224863] (proy_eq1) StderrLine: {'line': b'    "ament_cmake_core" "IN_LIST" "_ARG_EXCLUDE"\n'}
+[0.224897] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.224931] (proy_eq1) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.224965] (proy_eq1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.225000] (proy_eq1) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package.cmake:66 (ament_execute_extensions)\n'}
+[0.225039] (proy_eq1) StderrLine: {'line': b'  CMakeLists.txt:10 (ament_package)\n'}
+[0.225075] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.225109] (proy_eq1) StderrLine: {'line': b'\n'}
+[0.225173] (proy_eq1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.225218] (proy_eq1) StdoutLine: {'line': b'See also "/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/CMakeOutput.log".\n'}
+[0.228028] (proy_eq1) CommandEnded: {'returncode': 1}
+[0.302295] (-) TimerEvent: {}
+[0.320271] (proy_eq1) JobEnded: {'identifier': 'proy_eq1', 'rc': 1}
+[0.331090] (-) EventReactorShutdown: {}

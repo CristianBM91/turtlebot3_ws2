@@ -1,0 +1,9 @@
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/install/strip.dir
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/install/local.dir
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/install.dir
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/list_install_components.dir
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/rebuild_cache.dir
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/edit_cache.dir
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/test.dir
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/proy_eq1_uninstall.dir
+/home/vboxuser/turtlebot3_ws/build/proy_eq1/CMakeFiles/uninstall.dir

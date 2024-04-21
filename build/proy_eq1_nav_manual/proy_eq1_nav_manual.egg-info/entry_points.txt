@@ -1,0 +1,4 @@
+[console_scripts]
+movement_client = proy_eq1_nav_manual.movement_client:main
+movement_server = proy_eq1_nav_manual.movement_server:main
+

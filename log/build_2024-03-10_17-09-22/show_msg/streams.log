@@ -1,0 +1,21 @@
+[0.736s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/show_msg': CMAKE_PREFIX_PATH=/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/show_msg/prefix_override:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/vboxuser/turtlebot3_ws/build/show_msg/build install --record /home/vboxuser/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed
+[0.901s] running egg_info
+[0.901s] writing ../../build/show_msg/show_msg.egg-info/PKG-INFO
+[0.901s] writing dependency_links to ../../build/show_msg/show_msg.egg-info/dependency_links.txt
+[0.901s] writing entry points to ../../build/show_msg/show_msg.egg-info/entry_points.txt
+[0.901s] writing requirements to ../../build/show_msg/show_msg.egg-info/requires.txt
+[0.902s] writing top-level names to ../../build/show_msg/show_msg.egg-info/top_level.txt
+[0.926s] reading manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../../build/show_msg/show_msg.egg-info/SOURCES.txt'
+[0.927s] running build
+[0.927s] running build_py
+[0.927s] running install
+[0.928s] running install_lib
+[0.929s] running install_data
+[0.930s] running install_egg_info
+[0.931s] removing '/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info' (and everything under it)
+[0.931s] Copying ../../build/show_msg/show_msg.egg-info to /home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages/show_msg-0.0.0-py3.8.egg-info
+[0.932s] running install_scripts
+[0.946s] Installing show_msg script to /home/vboxuser/turtlebot3_ws/install/show_msg/lib/show_msg
+[0.946s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/show_msg/install.log'
+[0.962s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/show_msg' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/turtlebot3_ws/install/custom_interface:/home/vboxuser/turtlebot3_ws/install/turtlebot3_simulations:/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo:/home/vboxuser/turtlebot3_ws/install/turtlebot3_fake_node PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/show_msg/prefix_override:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/custom_interface/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/show_msg/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_publisher/lib/python3.8/site-packages:/home/vboxuser/turtlebot3_ws/install/my_first_node/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/show_msg build --build-base /home/vboxuser/turtlebot3_ws/build/show_msg/build install --record /home/vboxuser/turtlebot3_ws/build/show_msg/install.log --single-version-externally-managed

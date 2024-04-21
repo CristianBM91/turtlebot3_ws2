@@ -1,0 +1,31 @@
+running egg_info
+creating ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info
+writing ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/PKG-INFO
+writing dependency_links to ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/dependency_links.txt
+writing entry points to ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/entry_points.txt
+writing requirements to ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/requires.txt
+writing top-level names to ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/top_level.txt
+writing manifest file '../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/SOURCES.txt'
+reading manifest file '../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/SOURCES.txt'
+writing manifest file '../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build/lib
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build/lib/proy_eq1_custom_interface
+copying proy_eq1_custom_interface/__init__.py -> /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build/lib/proy_eq1_custom_interface
+running install
+running install_lib
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages/proy_eq1_custom_interface
+copying /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build/lib/proy_eq1_custom_interface/__init__.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages/proy_eq1_custom_interface
+byte-compiling /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages/proy_eq1_custom_interface/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/ament_index
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/ament_index/resource_index
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/ament_index/resource_index/packages
+copying resource/proy_eq1_custom_interface -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/ament_index/resource_index/packages
+copying package.xml -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/proy_eq1_custom_interface
+running install_egg_info
+Copying ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info to /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages/proy_eq1_custom_interface-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/install.log'

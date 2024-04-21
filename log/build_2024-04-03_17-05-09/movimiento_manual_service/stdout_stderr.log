@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/dependency_links.txt
+writing entry points to ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/entry_points.txt
+writing requirements to ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/requires.txt
+writing top-level names to ../../build/movimiento_manual_service/movimiento_manual_service.egg-info/top_level.txt
+reading manifest file '../../build/movimiento_manual_service/movimiento_manual_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/movimiento_manual_service/movimiento_manual_service.egg-info/SOURCES.txt'
+running build
+running build_py
+copying movimiento_manual_service/movement_server.py -> /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service
+running install
+running install_lib
+copying /home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/build/lib/movimiento_manual_service/movement_server.py -> /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service
+byte-compiling /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service/movement_server.py to movement_server.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/movimiento_manual_service/movimiento_manual_service.egg-info to /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/python3.8/site-packages/movimiento_manual_service-0.0.0-py3.8.egg-info
+running install_scripts
+Installing movement_client script to /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/movimiento_manual_service
+Installing movement_server script to /home/vboxuser/turtlebot3_ws/install/movimiento_manual_service/lib/movimiento_manual_service
+writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/movimiento_manual_service/install.log'

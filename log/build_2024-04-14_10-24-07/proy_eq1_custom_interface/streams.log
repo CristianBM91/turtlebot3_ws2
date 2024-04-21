@@ -1,0 +1,33 @@
+[0.746s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/proy_eq1111111/proy_eq1_custom_interface': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/prefix_override:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_eq1_custom_interface build --build-base /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build install --record /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/install.log --single-version-externally-managed
+[0.899s] running egg_info
+[0.899s] creating ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info
+[0.899s] writing ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/dependency_links.txt
+[0.900s] writing entry points to ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/requires.txt
+[0.900s] writing top-level names to ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/top_level.txt
+[0.901s] writing manifest file '../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/SOURCES.txt'
+[0.923s] reading manifest file '../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/SOURCES.txt'
+[0.923s] writing manifest file '../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/SOURCES.txt'
+[0.923s] running build
+[0.923s] running build_py
+[0.923s] creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build
+[0.923s] creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build/lib
+[0.923s] creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build/lib/proy_eq1_custom_interface
+[0.924s] copying proy_eq1_custom_interface/__init__.py -> /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build/lib/proy_eq1_custom_interface
+[0.924s] running install
+[0.924s] running install_lib
+[0.925s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages/proy_eq1_custom_interface
+[0.925s] copying /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build/lib/proy_eq1_custom_interface/__init__.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages/proy_eq1_custom_interface
+[0.925s] byte-compiling /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages/proy_eq1_custom_interface/__init__.py to __init__.cpython-38.pyc
+[0.926s] running install_data
+[0.926s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/ament_index
+[0.926s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/ament_index/resource_index
+[0.926s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/ament_index/resource_index/packages
+[0.926s] copying resource/proy_eq1_custom_interface -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/ament_index/resource_index/packages
+[0.926s] copying package.xml -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/share/proy_eq1_custom_interface
+[0.926s] running install_egg_info
+[0.927s] Copying ../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info to /home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages/proy_eq1_custom_interface-0.0.0-py3.8.egg-info
+[0.928s] running install_scripts
+[0.939s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/install.log'
+[0.951s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/proy_eq1111111/proy_eq1_custom_interface' returned '0': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/prefix_override:/home/vboxuser/turtlebot3_ws/install/proy_eq1_custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_eq1_custom_interface build --build-base /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/build install --record /home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/install.log --single-version-externally-managed

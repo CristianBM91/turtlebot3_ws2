@@ -1,0 +1,137 @@
+[0.170s] Invoking command in '/home/vboxuser/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake /home/vboxuser/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/my_world
+[0.284s] -- The C compiler identification is GNU 9.4.0
+[0.397s] -- The CXX compiler identification is GNU 9.4.0
+[0.405s] -- Check for working C compiler: /usr/bin/cc
+[0.542s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.542s] -- Detecting C compiler ABI info
+[0.631s] -- Detecting C compiler ABI info - done
+[0.643s] -- Detecting C compile features
+[0.643s] -- Detecting C compile features - done
+[0.646s] -- Check for working CXX compiler: /usr/bin/c++
+[0.812s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.812s] -- Detecting CXX compiler ABI info
+[0.958s] -- Detecting CXX compiler ABI info - done
+[0.983s] -- Detecting CXX compile features
+[0.983s] -- Detecting CXX compile features - done
+[0.986s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.033s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.033s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.166s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.173s] -- Checking for module 'bullet>=2.82'
+[1.195s] --   Found bullet, version 2.88
+[1.400s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.489s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.580s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.615s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.164s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.193s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.199s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.206s] -- Searching for dependencies of ignition-math6
+[2.209s] -- Looking for OGRE...
+[2.210s] -- OGRE_PREFIX_WATCH changed.
+[2.216s] -- Checking for module 'OGRE'
+[2.240s] --   Found OGRE, version 1.9.0
+[2.298s] -- Found Ogre Ghadamon (1.9.0)
+[2.308s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.322s] -- Looking for OGRE_Paging...
+[2.332s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.332s] -- Looking for OGRE_Terrain...
+[2.339s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.340s] -- Looking for OGRE_Property...
+[2.350s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.351s] -- Looking for OGRE_RTShaderSystem...
+[2.357s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.358s] -- Looking for OGRE_Volume...
+[2.365s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.365s] -- Looking for OGRE_Overlay...
+[2.375s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.504s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.507s] -- Looking for ignition-transport8 -- found version 8.3.0
+[2.508s] -- Searching for dependencies of ignition-transport8
+[2.529s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.547s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.557s] -- Checking for module 'libzmq >= 4'
+[2.596s] --   Found libzmq , version 4.3.2
+[2.662s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.672s] -- Checking for module 'uuid'
+[2.701s] --   Found uuid, version 2.34.0
+[2.778s] -- Found UUID: TRUE  
+[2.781s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.782s] -- Searching for dependencies of ignition-msgs5
+[2.822s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.833s] -- Checking for module 'tinyxml2'
+[2.869s] --   Found tinyxml2, version 6.2.0
+[2.941s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.946s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.946s] -- Searching for dependencies of ignition-common3
+[2.949s] -- Looking for dlfcn.h - found
+[2.951s] -- Looking for libdl - found
+[2.954s] -- Found DL: TRUE  
+[2.968s] -- Searching for <ignition-common3> component [graphics]
+[2.970s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[2.971s] -- Searching for dependencies of ignition-common3-graphics
+[2.971s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.974s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[2.975s] -- Searching for dependencies of ignition-fuel_tools4
+[3.096s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.109s] -- Checking for module 'jsoncpp'
+[3.138s] --   Found jsoncpp, version 1.7.4
+[3.207s] -- Found JSONCPP: TRUE  
+[3.222s] -- Checking for module 'libzip'
+[3.261s] --   Found libzip, version 1.5.1
+[3.325s] -- Found ZIP: TRUE  
+[3.326s] -- Looking for ignition-common3 -- found version 3.14.2
+[3.326s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.327s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[3.335s] -- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)
+[3.339s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[3.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.400s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.522s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.557s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.656s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.731s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[3.791s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[3.856s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.861s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.882s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.884s] -- Found Threads: TRUE  
+[4.031s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[4.098s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[4.108s] -- Found turtlebot3_gazebo: 2.2.4 (/home/vboxuser/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake)
+[4.226s] -- Configuring done
+[4.239s] -- Generating done
+[4.242s] -- Build files have been written to: /home/vboxuser/turtlebot3_ws/build/my_world
+[4.261s] Invoked command in '/home/vboxuser/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake /home/vboxuser/turtlebot3_ws/src/my_world -DCMAKE_INSTALL_PREFIX=/home/vboxuser/turtlebot3_ws/install/my_world
+[4.263s] Invoking command in '/home/vboxuser/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake --build /home/vboxuser/turtlebot3_ws/build/my_world -- -j4 -l4
+[4.327s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[4.387s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[15.586s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[16.101s] [100%] Built target turtlebot3_drive
+[16.118s] Invoked command in '/home/vboxuser/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake --build /home/vboxuser/turtlebot3_ws/build/my_world -- -j4 -l4
+[16.210s] Invoking command in '/home/vboxuser/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake --install /home/vboxuser/turtlebot3_ws/build/my_world
+[16.226s] -- Install configuration: ""
+[16.226s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+[16.235s] -- Set runtime path of "/home/vboxuser/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""
+[16.235s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//launch
+[16.235s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+[16.235s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models
+[16.235s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+[16.235s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+[16.235s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+[16.235s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world
+[16.236s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world/burguer.model
+[16.237s] CMake Error at cmake_install.cmake:61 (file):
+[16.237s]   file INSTALL cannot find "/home/vboxuser/turtlebot3_ws/src/my_world/urdf":
+[16.237s]   No such file or directory.
+[16.237s] 
+[16.237s] 
+[16.240s] Invoked command in '/home/vboxuser/turtlebot3_ws/build/my_world' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake --install /home/vboxuser/turtlebot3_ws/build/my_world

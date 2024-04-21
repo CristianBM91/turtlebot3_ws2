@@ -1,0 +1,49 @@
+[0.246s] Invoking command in '/home/vboxuser/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake --build /home/vboxuser/turtlebot3_ws/build/my_world -- -j4 -l4
+[0.471s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[0.533s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[9.527s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[10.725s] [100%] Built target turtlebot3_drive
+[10.739s] Invoked command in '/home/vboxuser/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake --build /home/vboxuser/turtlebot3_ws/build/my_world -- -j4 -l4
+[10.786s] Invoking command in '/home/vboxuser/turtlebot3_ws/build/my_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake --install /home/vboxuser/turtlebot3_ws/build/my_world
+[10.821s] -- Install configuration: ""
+[10.837s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive
+[10.848s] -- Set runtime path of "/home/vboxuser/turtlebot3_ws/install/my_world/lib/my_world/turtlebot3_drive" to ""
+[10.849s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//launch
+[10.849s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//launch/turtlebot3_my_world.launch.py
+[10.849s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models
+[10.850s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world
+[10.850s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.config
+[10.850s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/my_world/model.sdf
+[10.851s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger
+[10.851s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes
+[10.851s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/tire.dae
+[10.851s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/burger_base.dae
+[10.852s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/meshes/lds.dae
+[10.852s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model-1_4.sdf
+[10.852s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.config
+[10.852s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//models/turtlebot3_burger/model.sdf
+[10.852s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world
+[10.852s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//world/burguer.model
+[10.852s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//urdf
+[10.852s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger.urdf
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world//urdf/turtlebot3_burger_pi.urdf
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/include/
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/include//my_world
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/ament_index/resource_index/package_run_dependencies/my_world
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/ament_index/resource_index/parent_prefix_path/my_world
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.sh
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/environment/ament_prefix_path.dsv
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/environment/path.sh
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/environment/path.dsv
+[10.853s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/local_setup.bash
+[10.856s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/local_setup.sh
+[10.856s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/local_setup.zsh
+[10.858s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/local_setup.dsv
+[10.858s] -- Installing: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/package.dsv
+[10.858s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/ament_index/resource_index/packages/my_world
+[10.858s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.858s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.858s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig.cmake
+[10.859s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/cmake/my_worldConfig-version.cmake
+[10.859s] -- Up-to-date: /home/vboxuser/turtlebot3_ws/install/my_world/share/my_world/package.xml
+[10.860s] Invoked command in '/home/vboxuser/turtlebot3_ws/build/my_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vboxuser/turtlebot3_ws/install/show_msg:/home/vboxuser/turtlebot3_ws/install/my_first_subscriber:/home/vboxuser/turtlebot3_ws/install/my_first_service:/home/vboxuser/turtlebot3_ws/install/my_first_publisher:/home/vboxuser/turtlebot3_ws/install/my_first_node:/home/vboxuser/turtlebot3_ws/install/my_first_action:/opt/ros/galactic /usr/bin/cmake --install /home/vboxuser/turtlebot3_ws/build/my_world

@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/PKG-INFO
+../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/SOURCES.txt
+../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/dependency_links.txt
+../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/entry_points.txt
+../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/requires.txt
+../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/top_level.txt
+../../../build/proy_eq1_custom_interface/proy_eq1_custom_interface.egg-info/zip-safe
+proy_eq1_custom_interface/__init__.py
+resource/proy_eq1_custom_interface
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

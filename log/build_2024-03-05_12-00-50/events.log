@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000777] (-) JobUnselected: {'identifier': 'my_first_node'}
+[0.000855] (-) JobUnselected: {'identifier': 'my_first_publisher'}
+[0.000891] (-) JobUnselected: {'identifier': 'my_first_subscriber'}
+[0.000921] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000950] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000978] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001681] (-) EventReactorShutdown: {}

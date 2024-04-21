@@ -1,0 +1,3 @@
+[console_scripts]
+initial_pose_pub = proy_eq1_nav2_system.initial_pose_pub:main
+

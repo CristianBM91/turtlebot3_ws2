@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/proy_eq1/proy_eq1.egg-info
+writing ../../build/proy_eq1/proy_eq1.egg-info/PKG-INFO
+writing dependency_links to ../../build/proy_eq1/proy_eq1.egg-info/dependency_links.txt
+writing entry points to ../../build/proy_eq1/proy_eq1.egg-info/entry_points.txt
+writing requirements to ../../build/proy_eq1/proy_eq1.egg-info/requires.txt
+writing top-level names to ../../build/proy_eq1/proy_eq1.egg-info/top_level.txt
+writing manifest file '../../build/proy_eq1/proy_eq1.egg-info/SOURCES.txt'
+reading manifest file '../../build/proy_eq1/proy_eq1.egg-info/SOURCES.txt'
+writing manifest file '../../build/proy_eq1/proy_eq1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1/build
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1/build/lib
+creating /home/vboxuser/turtlebot3_ws/build/proy_eq1/build/lib/proy_eq1
+copying proy_eq1/__init__.py -> /home/vboxuser/turtlebot3_ws/build/proy_eq1/build/lib/proy_eq1
+running install
+running install_lib
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1/lib/python3.8/site-packages/proy_eq1
+copying /home/vboxuser/turtlebot3_ws/build/proy_eq1/build/lib/proy_eq1/__init__.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1/lib/python3.8/site-packages/proy_eq1
+byte-compiling /home/vboxuser/turtlebot3_ws/install/proy_eq1/lib/python3.8/site-packages/proy_eq1/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1/share
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1/share/ament_index
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1/share/ament_index/resource_index
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1/share/ament_index/resource_index/packages
+copying resource/proy_eq1 -> /home/vboxuser/turtlebot3_ws/install/proy_eq1/share/ament_index/resource_index/packages
+creating /home/vboxuser/turtlebot3_ws/install/proy_eq1/share/proy_eq1
+error: can't copy 'package.xml': doesn't exist or not a regular file

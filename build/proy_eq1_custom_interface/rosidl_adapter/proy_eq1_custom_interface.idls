@@ -1,0 +1,3 @@
+/home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/rosidl_adapter/proy_eq1_custom_interface:msg/Distvel.idl
+/home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/rosidl_adapter/proy_eq1_custom_interface:srv/MyMoveMsg.idl
+/home/vboxuser/turtlebot3_ws/build/proy_eq1_custom_interface/rosidl_adapter/proy_eq1_custom_interface:action/Move.idl

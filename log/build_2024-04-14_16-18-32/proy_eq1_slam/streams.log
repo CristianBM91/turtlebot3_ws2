@@ -1,0 +1,39 @@
+[0.776s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_slam': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/prefix_override:/home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_eq1_slam build --build-base /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/build install --record /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/install.log --single-version-externally-managed
+[0.938s] running egg_info
+[0.938s] creating ../../../build/proy_eq1_slam/proy_eq1_slam.egg-info
+[0.938s] writing ../../../build/proy_eq1_slam/proy_eq1_slam.egg-info/PKG-INFO
+[0.939s] writing dependency_links to ../../../build/proy_eq1_slam/proy_eq1_slam.egg-info/dependency_links.txt
+[0.939s] writing entry points to ../../../build/proy_eq1_slam/proy_eq1_slam.egg-info/entry_points.txt
+[0.939s] writing requirements to ../../../build/proy_eq1_slam/proy_eq1_slam.egg-info/requires.txt
+[0.939s] writing top-level names to ../../../build/proy_eq1_slam/proy_eq1_slam.egg-info/top_level.txt
+[0.941s] writing manifest file '../../../build/proy_eq1_slam/proy_eq1_slam.egg-info/SOURCES.txt'
+[0.965s] reading manifest file '../../../build/proy_eq1_slam/proy_eq1_slam.egg-info/SOURCES.txt'
+[0.965s] writing manifest file '../../../build/proy_eq1_slam/proy_eq1_slam.egg-info/SOURCES.txt'
+[0.966s] running build
+[0.966s] running build_py
+[0.966s] creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/build
+[0.966s] creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/build/lib
+[0.966s] creating /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/build/lib/proy_eq1_slam
+[0.966s] copying proy_eq1_slam/__init__.py -> /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/build/lib/proy_eq1_slam
+[0.966s] running install
+[0.967s] running install_lib
+[0.967s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/lib/python3.8/site-packages/proy_eq1_slam
+[0.967s] copying /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/build/lib/proy_eq1_slam/__init__.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/lib/python3.8/site-packages/proy_eq1_slam
+[0.968s] byte-compiling /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/lib/python3.8/site-packages/proy_eq1_slam/__init__.py to __init__.cpython-38.pyc
+[0.969s] running install_data
+[0.969s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/ament_index
+[0.969s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/ament_index/resource_index
+[0.969s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/ament_index/resource_index/packages
+[0.969s] copying resource/proy_eq1_slam -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/ament_index/resource_index/packages
+[0.969s] copying package.xml -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/proy_eq1_slam
+[0.969s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/proy_eq1_slam/map
+[0.969s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/proy_eq1_slam/rviz
+[0.969s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/proy_eq1_slam/launch
+[0.969s] copying launch/proy_eq1_slam.launch.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/proy_eq1_slam/launch
+[0.969s] creating /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/proy_eq1_slam/config
+[0.969s] copying config/proy_eq1_slam.lua -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/share/proy_eq1_slam/config
+[0.970s] running install_egg_info
+[0.971s] Copying ../../../build/proy_eq1_slam/proy_eq1_slam.egg-info to /home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/lib/python3.8/site-packages/proy_eq1_slam-0.0.0-py3.8.egg-info
+[0.971s] running install_scripts
+[0.984s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/install.log'
+[0.998s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_slam' returned '0': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/prefix_override:/home/vboxuser/turtlebot3_ws/install/proy_eq1_slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_eq1_slam build --build-base /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/build install --record /home/vboxuser/turtlebot3_ws/build/proy_eq1_slam/install.log --single-version-externally-managed
