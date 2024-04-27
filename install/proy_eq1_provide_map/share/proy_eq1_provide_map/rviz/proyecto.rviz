@@ -6,7 +6,6 @@ Panels:
       Expanded:
         - /LaserScan1/Topic1
         - /Map1
-        - /Map1/Status1
       Splitter Ratio: 0.5
     Tree Height: 233
   - Class: rviz_common/Selection
@@ -51,7 +50,7 @@ Visualization Manager:
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: false
-      Description File: /home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_mundo/urdf/turtlebot3_burger.urdf
+      Description File: /opt/ros/galactic/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
       Description Source: File
       Description Topic:
         Depth: 5
@@ -153,6 +152,8 @@ Visualization Manager:
           Value: true
         imu_link:
           Value: true
+        map:
+          Value: true
         odom:
           Value: true
         wheel_left_link:
@@ -165,19 +166,20 @@ Visualization Manager:
       Show Axes: true
       Show Names: false
       Tree:
-        odom:
-          base_footprint:
-            base_link:
-              base_scan:
-                {}
-              caster_back_link:
-                {}
-              imu_link:
-                {}
-              wheel_left_link:
-                {}
-              wheel_right_link:
-                {}
+        map:
+          odom:
+            base_footprint:
+              base_link:
+                base_scan:
+                  {}
+                caster_back_link:
+                  {}
+                imu_link:
+                  {}
+                wheel_left_link:
+                  {}
+                wheel_right_link:
+                  {}
       Update Interval: 0
       Value: true
     - Alpha: 0.699999988079071
@@ -247,25 +249,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 4.697118282318115
+      Distance: 6.9139404296875
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.15429306030273438
-        Y: 0.01720545068383217
-        Z: -0.8498677611351013
+        X: 0.3687440752983093
+        Y: 0.41390499472618103
+        Z: -0.8448653817176819
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.0247968435287476
+      Pitch: 1.145397663116455
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 4.708578586578369
+      Yaw: 3.098548173904419
     Saved: ~
 Window Geometry:
   Displays:
@@ -283,5 +285,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1206
-  X: 72
-  Y: 736
+  X: 78
+  Y: 666

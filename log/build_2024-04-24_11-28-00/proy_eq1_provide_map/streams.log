@@ -1,0 +1,29 @@
+[2.197s] Invoking command in '/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_provide_map': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/prefix_override:/home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_eq1_provide_map build --build-base /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build install --record /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/install.log --single-version-externally-managed
+[2.631s] running egg_info
+[2.633s] writing ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/PKG-INFO
+[2.634s] writing dependency_links to ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/dependency_links.txt
+[2.637s] writing entry points to ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/entry_points.txt
+[2.637s] writing requirements to ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/requires.txt
+[2.638s] writing top-level names to ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/top_level.txt
+[2.710s] reading manifest file '../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/SOURCES.txt'
+[2.710s] writing manifest file '../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info/SOURCES.txt'
+[2.711s] running build
+[2.711s] running build_py
+[2.711s] copying proy_eq1_provide_map/__init__.py -> /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build/lib/proy_eq1_provide_map
+[2.711s] running install
+[2.716s] running install_lib
+[2.716s] copying /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build/lib/proy_eq1_provide_map/__init__.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages/proy_eq1_provide_map
+[2.723s] byte-compiling /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages/proy_eq1_provide_map/__init__.py to __init__.cpython-38.pyc
+[2.723s] running install_data
+[2.723s] copying resource/proy_eq1_provide_map -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/ament_index/resource_index/packages
+[2.723s] copying package.xml -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map
+[2.723s] copying map/my_map.pgm -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/map
+[2.727s] copying map/my_map.yaml -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/map
+[2.731s] copying rviz/proyecto.rviz -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/rviz
+[2.731s] copying launch/proy_eq1_provide_map.launch.py -> /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/share/proy_eq1_provide_map/launch
+[2.731s] running install_egg_info
+[2.737s] removing '/home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages/proy_eq1_provide_map-0.0.0-py3.8.egg-info' (and everything under it)
+[2.758s] Copying ../../../build/proy_eq1_provide_map/proy_eq1_provide_map.egg-info to /home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages/proy_eq1_provide_map-0.0.0-py3.8.egg-info
+[2.758s] running install_scripts
+[2.793s] writing list of installed files to '/home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/install.log'
+[4.041s] Invoked command in '/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_provide_map' returned '0': PYTHONPATH=/home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/prefix_override:/home/vboxuser/turtlebot3_ws/install/proy_eq1_provide_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/proy_eq1_provide_map build --build-base /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/build install --record /home/vboxuser/turtlebot3_ws/build/proy_eq1_provide_map/install.log --single-version-externally-managed

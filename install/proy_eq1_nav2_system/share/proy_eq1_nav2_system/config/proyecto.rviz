@@ -9,8 +9,8 @@ Panels:
         - /TF1/Tree1
         - /RobotModel1/Links1
         - /LaserScan1/Topic1
-        - /Global Map1
-        - /Local Map1
+        - /GlobalMap1/Topic1
+        - /LocalMap1/Topic1
       Splitter Ratio: 0.7354085445404053
     Tree Height: 684
   - Class: rviz_common/Selection
@@ -216,13 +216,13 @@ Visualization Manager:
       Color Scheme: costmap
       Draw Behind: false
       Enabled: true
-      Name: Global Map
+      Name: GlobalMap
       Topic:
         Depth: 5
         Durability Policy: Volatile
         Filter size: 10
         History Policy: Keep Last
-        Reliability Policy: Reliable
+        Reliability Policy: Best Effort
         Value: /global_costmap/costmap
       Update Topic:
         Depth: 5
@@ -237,13 +237,13 @@ Visualization Manager:
       Color Scheme: costmap
       Draw Behind: false
       Enabled: true
-      Name: Local Map
+      Name: LocalMap
       Topic:
         Depth: 5
         Durability Policy: Volatile
         Filter size: 10
         History Policy: Keep Last
-        Reliability Policy: Reliable
+        Reliability Policy: Best Effort
         Value: /local_costmap/costmap
       Update Topic:
         Depth: 5
@@ -299,25 +299,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 7.549012660980225
+      Distance: 9.871071815490723
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
+        X: 0.6329820156097412
+        Y: -4.128530025482178
+        Z: 2.2331840991973877
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.785398006439209
+      Pitch: 0.9153980016708374
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.785398006439209
+      Yaw: 4.758559226989746
     Saved: ~
 Window Geometry:
   Displays:

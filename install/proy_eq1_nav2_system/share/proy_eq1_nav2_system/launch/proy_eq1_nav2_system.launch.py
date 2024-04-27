@@ -9,7 +9,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
 
     nav2_yaml = os.path.join(get_package_share_directory('proy_eq1_nav2_system'), 'config', 'my_nav2_params.yaml')
-    map_file = os.path.join(get_package_share_directory('proy_eq1_nav2_system'), 'config', 'my_map.yaml')
+    map_file = os.path.join(get_package_share_directory('proy_eq1_nav2_system'), 'config', 'real_map.yaml')
     rviz_config_dir = os.path.join(get_package_share_directory('proy_eq1_nav2_system'), 'config', 'proyecto.rviz')
 
     return LaunchDescription([
@@ -35,7 +35,7 @@ def generate_launch_description():
             executable='lifecycle_manager',
             name='lifecycle_manager_localization',
             output='screen',
-            parameters=[{'use_sim_time': True},
+            parameters=[{'use_sim_time': False},
                         {'autostart': True},
                         {'node_names': ['map_server', 'amcl']}]
         ),
@@ -44,7 +44,7 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz2',
             arguments=['-d', rviz_config_dir],
-            parameters=[{'use_sim_time': True}],
+            parameters=[{'use_sim_time': False}],
             output='screen'
         )
     ])

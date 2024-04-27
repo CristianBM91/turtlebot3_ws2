@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/vboxuser/turtlebot3_ws/src/proy_eq1/proy_eq1_mundo/include": No such
+  file or directory.
+
+
